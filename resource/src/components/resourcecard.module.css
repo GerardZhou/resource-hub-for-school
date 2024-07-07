@@ -5,13 +5,15 @@
   border-radius: 5px;
   margin-bottom: 10px;
   object-fit: cover;
+  background-color: white;
 }
 .container {
-  background-image: linear-gradient(to right, #f6f6f7, #fead7e);
+  /* background-image: linear-gradient(to right, #f6f6f7, #fead7e); */
+  background-color: #ff7525e4;
   max-width: 250px;
   margin: 20px auto;
   padding: 20px;
-  box-shadow: 0 4px 8px rgb(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
   border-radius: 10px;
   font-family: Polysans, sans-serif;
 }

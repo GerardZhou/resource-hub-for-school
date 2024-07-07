@@ -4,6 +4,8 @@ import OuterComponent from "./components/OuterComponent";
 import Title from "./components/Title";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import AnotherPage from "./components/AnotherPage";
+import Footer from "./components/Footer";
+import ScrollRestoration from "./components/ScrollRestoration";
 
 import "./app.css";
 function App() {
@@ -156,11 +158,13 @@ function App() {
     <div>
       <Title />
       <Router>
+        <ScrollRestoration />
         <Routes>
           <Route path="/" element={<OuterComponent apClasses={apClasses} />} />
           <Route path="/another-page" element={<AnotherPage />} />
         </Routes>
       </Router>
+      <Footer />
     </div>
   );
 }

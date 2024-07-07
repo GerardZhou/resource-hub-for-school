@@ -15,19 +15,22 @@
   max-width: 250px;
   margin: 10px auto;
   padding: 20px;
-  box-shadow: 0 4px 8px rgb(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px rgb(0, 0, 0, 1);
   border-radius: 10px;
   font-family: Polysans, sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 20px;
 }
 .container {
-  background-image: linear-gradient(to right, #e4f4f9, #c4e6fc);
+  /* background-image: linear-gradient(to right, #e4f4f9, #c4e6fc); */
   box-shadow: 0 4px 8px rgb(0, 0, 0, 0.2);
   border-radius: 10px;
   font-family: Polysans, sans-serif;
 }
 .className {
   font-size: 30px;
-  color: rgb(0, 0, 0);
+  color: white;
   font-weight: bold;
 
   text-align: center;
