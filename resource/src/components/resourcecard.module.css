@@ -1,0 +1,27 @@
+.button {
+  display: flex;
+  outline: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  background-color: rgb(56, 185, 120);
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 15px;
+}
+.image {
+  display: flex;
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.container {
+  background-image: linear-gradient(to right, #f6f6f7, #fead7e);
+  max-width: 250px;
+  margin: 20px auto;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgb(0, 0, 0, 0.2);
+  border-radius: 10px;
+  font-family: Polysans, sans-serif;
+}
