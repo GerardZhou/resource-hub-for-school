@@ -2,6 +2,8 @@ import { useState } from "react";
 import ResourceCard from "./components/ResourceCard";
 import OuterComponent from "./components/OuterComponent";
 import Title from "./components/Title";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import AnotherPage from "./components/AnotherPage";
 
 import "./app.css";
 function App() {
@@ -9,27 +11,46 @@ function App() {
     {
       name: "AP Art History",
       image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiAyi0yWdBdQf53dMpJ8GcN2msCdLizK2CAg&s",
+        "https://about.jstor.org/wp-content/uploads/2013/10/armnig_10313257933.jpg",
     },
-    { name: "AP Biology", image: "https://example.com/biology.jpg" },
-    { name: "AP Calculus AB", image: "https://example.com/calculus-ab.jpg" },
-    { name: "AP Calculus BC", image: "https://example.com/calculus-bc.jpg" },
-    { name: "AP Chemistry", image: "https://example.com/chemistry.jpg" },
+    {
+      name: "AP Biology",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/e/e0/Honeybee_landing_on_milkthistle02.jpg?20070128232536",
+    },
+    {
+      name: "AP Calculus AB",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/0/0f/Tangent_to_a_curve.svg",
+    },
+    {
+      name: "AP Calculus BC",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/1/1e/Washer_method.png?20210731115654",
+    },
+    {
+      name: "AP Chemistry",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/2/2f/1V-LSD_Chemical_Structure.svg",
+    },
     {
       name: "AP Chinese Language and Culture",
-      image: "https://example.com/chinese.jpg",
+      image: "https://i.ytimg.com/vi/bIhqugVuSV4/mq2.jpg",
     },
     {
       name: "AP Comparative Government and Politics",
-      image: "https://example.com/comparative-government.jpg",
+      image:
+        "https://live-production.wcms.abc-cdn.net.au/f86a523451394147d052369ec3becf01?impolicy=wcms_crop_resize&cropH=450&cropW=800&xPos=0&yPos=0&width=862&height=485",
     },
     {
       name: "AP Computer Science A",
-      image: "https://example.com/computer-science-a.jpg",
+      image:
+        "https://scriptmag.com/.image/t_share/MTY3Mzc4OTk2NTUwNDQ0NjU2/image-placeholder-title.jpg",
     },
     {
       name: "AP Computer Science Principles",
-      image: "https://example.com/computer-science-principles.jpg",
+      image:
+        "https://theforage.wpengine.com/wp-content/uploads/2022/12/what-is-cybersecurity.jpg",
     },
     {
       name: "AP English Language and Composition",
@@ -134,7 +155,12 @@ function App() {
   return (
     <div>
       <Title />
-      <OuterComponent apClasses={apClasses} />
+      <Router>
+        <Routes>
+          <Route path="/" element={<OuterComponent apClasses={apClasses} />} />
+          <Route path="/another-page" element={<AnotherPage />} />
+        </Routes>
+      </Router>
     </div>
   );
 }
