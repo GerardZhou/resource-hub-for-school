@@ -99,11 +99,11 @@ function App() {
     },
     { name: "AP Music Theory", image: "https://example.com/music-theory.jpg" },
     {
-      name: "AP Physics 1: Algebra-Based",
+      name: "AP Physics 1",
       image: "https://example.com/physics-1.jpg",
     },
     {
-      name: "AP Physics 2: Algebra-Based",
+      name: "AP Physics 2",
       image: "https://example.com/physics-2.jpg",
     },
     {

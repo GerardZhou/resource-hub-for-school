@@ -5,7 +5,7 @@ export default function Button({ name }) {
   const navigate = useNavigate();
 
   function handleClick() {
-    navigate("/another-page");
+    navigate("/another-page?resourceId=" + name);
   }
 
   return (
