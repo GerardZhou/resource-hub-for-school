@@ -3,15 +3,15 @@
   outline: none;
   border-radius: 20px;
   padding: 10px 20px;
-  background-color: rgb(56, 185, 120);
-  color: white;
+  background-color: rgb(123, 255, 189);
+  color: black;
   cursor: pointer;
   font-weight: bold;
   font-size: 15px;
   margin: 0 auto;
 }
 .comp {
-  background-image: linear-gradient(to right, #f6f6f7, #fead7e);
+  background-image: linear-gradient(to right, #ffffff, #ffd9c4);
   max-width: 250px;
   margin: 10px auto;
   padding: 20px;

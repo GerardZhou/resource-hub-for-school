@@ -1112,6 +1112,15 @@ function AnotherPage() {
             <div>
               <div className={styles.className}>{apClass.class}</div>{" "}
               <ol>
+                <li className={styles.comp}>
+                  <a
+                    href="https://www.youtube.com/@advancedplacement"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    AP Youtube Channel
+                  </a>
+                </li>
                 {apClass.resources.map((resource, idx) => (
                   <li className={styles.comp}>
                     <a

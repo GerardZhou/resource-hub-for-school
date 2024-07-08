@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import AnotherPage from "./components/AnotherPage";
 import Footer from "./components/Footer";
 import ScrollRestoration from "./components/ScrollRestoration";
+import VisitorCounter from "./components/VisitorCounter";
 
 import "./app.css";
 function App() {
@@ -18,7 +19,7 @@ function App() {
     {
       name: "AP Biology",
       image:
-        "https://upload.wikimedia.org/wikipedia/commons/e/e0/Honeybee_landing_on_milkthistle02.jpg?20070128232536",
+        "https://veritaspress.com/images/blog/_800x450_crop_center-center_100_none/Depositphotos_173276132_l-2015.jpg",
     },
     {
       name: "AP Calculus AB",
@@ -42,7 +43,7 @@ function App() {
     {
       name: "AP Comparative Government and Politics",
       image:
-        "https://live-production.wcms.abc-cdn.net.au/f86a523451394147d052369ec3becf01?impolicy=wcms_crop_resize&cropH=450&cropW=800&xPos=0&yPos=0&width=862&height=485",
+        "https://rimmeysapgov.weebly.com/uploads/1/0/3/0/10305918/990930.jpg?372",
     },
     {
       name: "AP Computer Science A",
@@ -56,101 +57,143 @@ function App() {
     },
     {
       name: "AP English Language and Composition",
-      image: "https://example.com/english-language.jpg",
+      image:
+        "https://mariahmccune.weebly.com/uploads/1/9/2/8/19282013/header_images/1465222900.jpg",
     },
     {
       name: "AP English Literature and Composition",
-      image: "https://example.com/english-literature.jpg",
+      image:
+        "https://excelsiorecampus.com/wp-content/uploads/2018/11/AP-English-Lit.png",
     },
     {
       name: "AP Environmental Science",
-      image: "https://example.com/environmental-science.jpg",
+      image:
+        "https://www.pedersenscience.com/uploads/5/6/3/8/56384743/apes-topics_orig.png",
     },
     {
       name: "AP European History",
-      image: "https://example.com/european-history.jpg",
+      image:
+        "https://www.mrtredinnick.com/uploads/7/2/1/5/7215292/ap-euro-01_2_orig.png",
     },
     {
       name: "AP French Language and Culture",
-      image: "https://example.com/french.jpg",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Baguettes%2C_Paris%2C_France_-_panoramio.jpg/1200px-Baguettes%2C_Paris%2C_France_-_panoramio.jpg",
     },
     {
       name: "AP German Language and Culture",
-      image: "https://example.com/german.jpg",
+      image: "https://cdn.mos.cms.futurecdn.net/sUZ2PzB275ZMBPoWJgqDxD.jpg",
     },
     {
       name: "AP Human Geography",
-      image: "https://example.com/human-geography.jpg",
+      image:
+        "https://study.com/cimages/course-image/human-geography-textbook_137698_large.jpg",
     },
     {
       name: "AP Italian Language and Culture",
-      image: "https://example.com/italian.jpg",
+      image:
+        "https://eatingarounditaly.com/wp-content/uploads/2023/03/breaking-pasta-scaled.jpg",
     },
     {
       name: "AP Japanese Language and Culture",
-      image: "https://example.com/japanese.jpg",
+      image:
+        "https://www.japanshoreexcursions.com/wp-content/uploads/Japanese-traditional-culture-facts.jpg",
     },
-    { name: "AP Latin", image: "https://example.com/latin.jpg" },
+    {
+      name: "AP Latin",
+      image:
+        "https://www.collegetransitions.com/wp-content/uploads/2024/02/ap-latin.jpg",
+    },
     {
       name: "AP Macroeconomics",
-      image: "https://example.com/macroeconomics.jpg",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_VKRlvL4dsYAcGXdW6Xk7zlPi0Chshgh76w&s",
     },
     {
       name: "AP Microeconomics",
-      image: "https://example.com/microeconomics.jpg",
+      image:
+        "https://images.theconversation.com/files/418067/original/file-20210826-21-1sf8j51.png?ixlib=rb-4.1.0&rect=0%2C8%2C997%2C788&q=20&auto=format&w=320&fit=clip&dpr=2&usm=12&cs=strip",
     },
-    { name: "AP Music Theory", image: "https://example.com/music-theory.jpg" },
+    {
+      name: "AP Music Theory",
+      image: "https://enthu.com/blog/wp-content/uploads/2023/10/image2-13.png",
+    },
     {
       name: "AP Physics 1",
-      image: "https://example.com/physics-1.jpg",
+      image:
+        "https://d3f1iyfxxz8i1e.cloudfront.net/courses/course_image/672f46420dea.jpg",
     },
     {
       name: "AP Physics 2",
-      image: "https://example.com/physics-2.jpg",
+      image: "https://i.ytimg.com/vi/-Wvrwn1h784/maxresdefault.jpg",
     },
     {
       name: "AP Physics C: Electricity and Magnetism",
-      image: "https://example.com/physics-c-em.jpg",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNv4pANNAWsL3SEOq2TdqNeOi_QoeU9w1CIg&s",
     },
     {
       name: "AP Physics C: Mechanics",
-      image: "https://example.com/physics-c-mechanics.jpg",
+      image:
+        "https://vt-vtwa-assets.varsitytutors.com/vt-vtwa/uploads/problem_question_image/image/3682/PS0_CapacitorCircuit.png",
     },
-    { name: "AP Psychology", image: "https://example.com/psychology.jpg" },
-    { name: "AP Research", image: "https://example.com/research.jpg" },
-    { name: "AP Seminar", image: "https://example.com/seminar.jpg" },
+    {
+      name: "AP Psychology",
+      image:
+        "https://www.american.edu/cas/psychology/images/colorful-marketing-brain-psych-mob-1710.jpg",
+    },
+    {
+      name: "AP Research",
+      image: "https://i.ytimg.com/vi/EzH-WmHPoCM/maxresdefault.jpg",
+    },
+    {
+      name: "AP Seminar",
+      image: "https://i.ytimg.com/vi/0gXjxvpBwS8/hqdefault.jpg",
+    },
     {
       name: "AP Spanish Language and Culture",
-      image: "https://example.com/spanish-language.jpg",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7K4qhR__pJVUBz01f-9WP_FYaPtYt2P4coA&s",
     },
     {
       name: "AP Spanish Literature and Culture",
-      image: "https://example.com/spanish-literature.jpg",
+      image:
+        "https://static.wixstatic.com/media/508373_593a49579dec43d1b336c89c52f44ff0~mv2.jpg/v1/fill/w_420,h_234,al_c,lg_1,q_80,enc_auto/508373_593a49579dec43d1b336c89c52f44ff0~mv2.jpg",
     },
-    { name: "AP Statistics", image: "https://example.com/statistics.jpg" },
+    {
+      name: "AP Statistics",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Standard_Normal_Distribution.png/800px-Standard_Normal_Distribution.png",
+    },
     {
       name: "AP Studio Art: 2-D Design",
-      image: "https://example.com/studio-art-2d.jpg",
+      image:
+        "https://gwhsnews.org/wp-content/uploads/2017/02/KelleyDualSis-900x582.jpg",
     },
     {
       name: "AP Studio Art: 3-D Design",
-      image: "https://example.com/studio-art-3d.jpg",
+      image:
+        "https://www.agerart.com/uploads/1/2/7/9/12795042/unnamed-3_2_orig.jpg",
     },
     {
       name: "AP Studio Art: Drawing",
-      image: "https://example.com/studio-art-drawing.jpg",
+      image:
+        "https://chhsart.weebly.com/uploads/1/3/3/0/13308104/7940002_orig.jpg",
     },
     {
       name: "AP United States Government and Politics",
-      image: "https://example.com/us-government.jpg",
+      image:
+        "https://ilp-media.wgbh.org/filer_public_thumbnails/filer_public/25/34/2534963a-d274-4797-ab88-1ee04044f585/midlit10_doc_splgovtreading2.jpg__480x316_q85_crop_subsampling-2_upscale.jpg",
     },
     {
       name: "AP United States History",
-      image: "https://example.com/us-history.jpg",
+      image:
+        "https://res.cloudinary.com/highereducation/images/w_1024,h_683,c_scale/f_auto,q_auto/v1659634390/BestColleges.com/BC_Resources_Colleges-Planning_test-Prep_AP-US_History_3.4.22_FTR_24329d5eb0/BC_Resources_Colleges-Planning_test-Prep_AP-US_History_3.4.22_FTR-1024x683.jpg",
     },
     {
       name: "AP World History",
-      image: "https://example.com/world-history.jpg",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOde7Hgu5I_5KioxORAKvtCB2h6qNhuYXGNQ&s",
     },
   ];
 
@@ -164,6 +207,7 @@ function App() {
           <Route path="/another-page" element={<AnotherPage />} />
         </Routes>
       </Router>
+      {/* <VisitorCounter /> */}
       <Footer />
     </div>
   );
