@@ -183,7 +183,7 @@ function App() {
     {
       name: "AP United States Government and Politics",
       image:
-        "https://ilp-media.wgbh.org/filer_public_thumbnails/filer_public/25/34/2534963a-d274-4797-ab88-1ee04044f585/midlit10_doc_splgovtreading2.jpg__480x316_q85_crop_subsampling-2_upscale.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHMHjkebZK7xL5Z_zw_zMdFL9P7gKAwHvzCQ&s",
     },
     {
       name: "AP United States History",
