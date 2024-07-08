@@ -7,7 +7,6 @@ import AnotherPage from "./components/AnotherPage";
 import Footer from "./components/Footer";
 import ScrollRestoration from "./components/ScrollRestoration";
 import VisitorCounter from "./components/VisitorCounter";
-// gulp build
 import "./app.css";
 function App() {
   const apClasses = [
