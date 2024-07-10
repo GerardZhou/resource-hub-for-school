@@ -8,12 +8,12 @@
   background-color: white;
 }
 .container {
-  /* background-image: linear-gradient(to right, #f6f6f7, #fead7e); */
-  background-color: #ff7525e4;
+  background-image: linear-gradient(to right, #8086d0, #5a63c3);
+  /* background-color: #7980d5; */
   max-width: 250px;
   margin: 20px auto;
   padding: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
   border-radius: 10px;
   font-family: Polysans, sans-serif;
 }

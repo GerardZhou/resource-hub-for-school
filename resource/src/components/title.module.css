@@ -1,14 +1,43 @@
 .header {
-  font-size: 50px;
+  font-size: 30px;
   /* background-image: linear-gradient(to right, #b9f3d5, #49f846); */
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcpAka8XVHMJpU7o3gwu02ekQv8btBesfYTZ6wbmBbe0z75Okp");
+  /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcpAka8XVHMJpU7o3gwu02ekQv8btBesfYTZ6wbmBbe0z75Okp"); */
+  background-color: rgb(179, 175, 175);
   background-size: cover;
-  padding: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 2);
-  border-radius: 100px;
-  font-family: cursive;
-  text-align: center;
+  padding: 35px;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 2); */
+  /* border-radius: 5px; */
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  /* text-align: left; */
   font-weight: bold;
-  color: black;
   background-repeat: no-repeat;
+}
+.titleContainer {
+  text-align: left;
+}
+.title {
+  color: black;
+}
+.missionStatement {
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 100px;
+  /* margin-left: 20px; */
+  font-size: 20px;
+  font-weight: bold;
+}
+.container {
+  text-align: right;
+}
+.contact {
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 100px;
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: bold;
 }

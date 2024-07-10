@@ -26,13 +26,13 @@
   /* background-image: linear-gradient(to right, #e4f4f9, #c4e6fc); */
   box-shadow: 0 4px 8px rgb(0, 0, 0, 0.2);
   border-radius: 10px;
-  font-family: Polysans, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .className {
   font-size: 30px;
-  color: white;
+  color: black;
   font-weight: bold;
-
+  margin-top: 15px;
   text-align: center;
 }
 .number {
