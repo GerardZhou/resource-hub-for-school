@@ -3,12 +3,14 @@
   outline: none;
   border-radius: 20px;
   padding: 10px 20px;
-  background-color: rgb(123, 255, 189);
+  background-color: hsl(221, 100%, 85%);
   color: black;
   cursor: pointer;
   font-weight: bold;
   font-size: 15px;
   margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 20px;
 }
 .comp {
   background-image: linear-gradient(to right, #ffffff, #ffd9c4);

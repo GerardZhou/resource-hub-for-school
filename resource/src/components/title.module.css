@@ -11,9 +11,13 @@
   /* text-align: left; */
   font-weight: bold;
   background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .titleContainer {
-  text-align: left;
+  /* text-align: left; */
+  flex: 1;
 }
 .title {
   color: black;
@@ -29,7 +33,9 @@
   font-weight: bold;
 }
 .container {
-  text-align: right;
+  /* text-align: right; */
+  display: flex;
+  gap: 10px;
 }
 .contact {
   padding: 10px;
