@@ -7,6 +7,10 @@ import AnotherPage from "./components/AnotherPage";
 import Footer from "./components/Footer";
 import ScrollRestoration from "./components/ScrollRestoration";
 import VisitorCounter from "./components/VisitorCounter";
+import ContactForm from "./components/ContactForm";
+import MissionStatement from "./components/MissionStatement";
+import NavBar from "./components/NavBar";
+
 import "./app.css";
 function App() {
   const apClasses = [
@@ -201,9 +205,12 @@ function App() {
       <Title />
       <Router>
         <ScrollRestoration />
+        <NavBar />
         <Routes>
           <Route path="/" element={<OuterComponent apClasses={apClasses} />} />
           <Route path="/another-page" element={<AnotherPage />} />
+          <Route path="/contact" element={<ContactForm />} />
+          <Route path="/mission-statement" element={<MissionStatement />} />
         </Routes>
       </Router>
       {/* <VisitorCounter /> */}
