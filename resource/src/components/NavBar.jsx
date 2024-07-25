@@ -14,7 +14,7 @@ const NavBar = () => {
         </li>
         <li className={styles.listItem}>
           <Link to="/contact" className={styles.link}>
-            Contact
+            Contact/Feedback
           </Link>
         </li>
         <li className={styles.listItem}>

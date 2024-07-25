@@ -1,9 +1,10 @@
 body {
   margin: 0;
   /* background-image: url("C:\Users\mzhou\OneDrive\Desktop\resource-hub-for-school\resource\src\background.jpg"); */
-  background-image: url("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSs7KO8GyS4wCTe-OJnp7dGxNtOo_2A_O8DypVdUf5NaFKwHqhv");
-  background-size: cover;
+  /* background-image: url("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSs7KO8GyS4wCTe-OJnp7dGxNtOo_2A_O8DypVdUf5NaFKwHqhv"); */
+  background-image: linear-gradient(to left, #282828aa, #717171c6);
+  /* background-size: cover; */
   background-repeat: no-repeat;
   /* background-color: cyan; */
-  /* background-image: linear-gradient(to right, #24d8f8, #bce4ff); */
+  /*  */
 }
