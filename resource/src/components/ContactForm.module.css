@@ -46,3 +46,11 @@
 .button:hover {
   background: #555;
 }
+
+.successMessage {
+  background-color: #d4edda;
+  color: #155724;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 1em;
+}

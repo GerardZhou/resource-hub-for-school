@@ -1,40 +1,25 @@
-import React, { useState } from "react";
-import emailjs from "emailjs-com";
+import React, { useRef, useState } from "react";
 import styles from "./ContactForm.module.css";
+import emailjs from "@emailjs/browser";
 
-const ContactForm = () => {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
+export default function ContactForm() {
+  const form = useRef();
   const [message, setMessage] = useState("");
-  const [status, setStatus] = useState("");
 
-  const handleSubmit = (e) => {
+  const sendEmail = (e) => {
     e.preventDefault();
-
-    const templateParams = {
-      from_name: name,
-      from_email: email,
-      message,
-    };
-
     emailjs
-      .send(
-        "YOUR_SERVICE_ID",
-        "YOUR_TEMPLATE_ID",
-        templateParams,
-        "YOUR_USER_ID"
-      )
+      .sendForm("service_zo7r2ed", "template_qas3hrj", form.current, {
+        publicKey: "d65IGPqT7FmKrYgLT",
+      })
       .then(
-        (response) => {
-          console.log("SUCCESS!", response.status, response.text);
-          setStatus("SUCCESS");
-          setName("");
-          setEmail("");
-          setMessage("");
+        () => {
+          setMessage("Message sent successfully!");
+          form.current.reset();
         },
         (error) => {
-          console.log("FAILED...", error);
-          setStatus("FAILED");
+          setMessage("Failed to send message, please try again later.");
+          console.log("FAILED...", error.text);
         }
       );
   };
@@ -42,55 +27,22 @@ const ContactForm = () => {
   return (
     <div className={styles.contactForm}>
       <h2 className={styles.heading}>Contact Us</h2>
-      {status === "SUCCESS" && <p>Your message has been sent successfully.</p>}
-      {status === "FAILED" && (
-        <p>There was an error sending your message. Please try again.</p>
-      )}
-      <form onSubmit={handleSubmit}>
+      {message && <p className={styles.successMessage}>{message}</p>}
+      <form ref={form} onSubmit={sendEmail}>
         <div className={styles.inputGroup}>
-          <label className={styles.label} htmlFor="name">
-            Name
-          </label>
-          <input
-            type="text"
-            id="name"
-            className={styles.input}
-            value={name}
-            onChange={(e) => setName(e.target.value)}
-            required
-          />
+          <label className={styles.label}>Name</label>
+          <input type="text" name="user_name" className={styles.input} />
         </div>
         <div className={styles.inputGroup}>
-          <label className={styles.label} htmlFor="email">
-            Email
-          </label>
-          <input
-            type="email"
-            id="email"
-            className={styles.input}
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            required
-          />
+          <label className={styles.label}>Email</label>
+          <input type="email" name="user_email" className={styles.input} />
         </div>
         <div className={styles.inputGroup}>
-          <label className={styles.label} htmlFor="message">
-            Message
-          </label>
-          <textarea
-            id="message"
-            className={styles.textarea}
-            value={message}
-            onChange={(e) => setMessage(e.target.value)}
-            required
-          ></textarea>
+          <label className={styles.label}>Message</label>
+          <textarea name="message" className={styles.textarea}></textarea>
         </div>
-        <button type="submit" className={styles.button}>
-          Send
-        </button>
+        <input type="submit" value="Send" className={styles.button} />
       </form>
     </div>
   );
-};
-
-export default ContactForm;
+}
