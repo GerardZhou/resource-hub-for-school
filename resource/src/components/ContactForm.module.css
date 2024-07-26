@@ -48,8 +48,16 @@
 }
 
 .successMessage {
-  background-color: #d4edda;
-  color: #155724;
+  background: lightgreen;
+  color: darkgreen;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 1em;
+}
+
+.errorMessage {
+  background: lightcoral;
+  color: darkred;
   padding: 10px;
   border-radius: 5px;
   margin-bottom: 1em;

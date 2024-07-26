@@ -5,6 +5,7 @@ import emailjs from "@emailjs/browser";
 export default function ContactForm() {
   const form = useRef();
   const [message, setMessage] = useState("");
+  const [isSuccess, setIsSuccess] = useState(false);
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -17,11 +18,13 @@ export default function ContactForm() {
       )
       .then(
         () => {
+          setIsSuccess(true);
           setMessage("Message sent successfully!");
           form.current.reset();
         },
         (error) => {
           console.error("EmailJS Error:", error);
+          setIsSuccess(false);
           setMessage("Failed to send message, please try again later.");
         }
       );
@@ -30,7 +33,11 @@ export default function ContactForm() {
   return (
     <div className={styles.contactForm}>
       <h2 className={styles.heading}>Contact Us</h2>
-      {message && <p className={styles.successMessage}>{message}</p>}
+      {message && (
+        <p className={isSuccess ? styles.successMessage : styles.errorMessage}>
+          {message}
+        </p>
+      )}
       <form ref={form} onSubmit={sendEmail}>
         <div className={styles.inputGroup}>
           <label className={styles.label}>Name</label>
