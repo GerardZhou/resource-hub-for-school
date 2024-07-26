@@ -9,17 +9,20 @@ export default function ContactForm() {
   const sendEmail = (e) => {
     e.preventDefault();
     emailjs
-      .sendForm("service_zo7r2ed", "template_qas3hrj", form.current, {
-        publicKey: "d65IGPqT7FmKrYgLT",
-      })
+      .sendForm(
+        process.env.REACT_APP_EMAILJS_SERVICE_ID,
+        process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+        form.current,
+        process.env.REACT_APP_EMAILJS_PUBLIC_KEY
+      )
       .then(
         () => {
           setMessage("Message sent successfully!");
           form.current.reset();
         },
         (error) => {
+          console.error("EmailJS Error:", error);
           setMessage("Failed to send message, please try again later.");
-          console.log("FAILED...", error.text);
         }
       );
   };
