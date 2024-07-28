@@ -6,15 +6,18 @@ export default function ContactForm() {
   const form = useRef();
   const [message, setMessage] = useState("");
   const [isSuccess, setIsSuccess] = useState(false);
+  const REACT_APP_EMAILJS_SERVICE_ID = "service_zo7r2ed";
+  const REACT_APP_EMAILJS_TEMPLATE_ID = "template_qas3hrj";
+  const REACT_APP_EMAILJS_PUBLIC_KEY = "d65IGPqT7FmKrYgLT";
 
   const sendEmail = (e) => {
     e.preventDefault();
     emailjs
       .sendForm(
-        process.env.REACT_APP_EMAILJS_SERVICE_ID,
-        process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+        REACT_APP_EMAILJS_SERVICE_ID,
+        REACT_APP_EMAILJS_TEMPLATE_ID,
         form.current,
-        process.env.REACT_APP_EMAILJS_PUBLIC_KEY
+        REACT_APP_EMAILJS_PUBLIC_KEY
       )
       .then(
         () => {
