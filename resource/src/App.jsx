@@ -71,7 +71,7 @@ function App() {
     {
       name: "AP Environmental Science",
       image:
-        "https://www.pedersenscience.com/uploads/5/6/3/8/56384743/apes-topics_orig.png",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5WwhF7AWOzLkDS8nCzM-Mi1z7E2ZirWgzTA&s",
     },
     {
       name: "AP European History",
@@ -208,7 +208,7 @@ function App() {
         <NavBar />
         <Routes>
           <Route path="/" element={<OuterComponent apClasses={apClasses} />} />
-          <Route path="/another-page" element={<AnotherPage />} />
+          <Route path="/resources" element={<AnotherPage />} />
           <Route path="/contact" element={<ContactForm />} />
           <Route path="/mission-statement" element={<MissionStatement />} />
         </Routes>

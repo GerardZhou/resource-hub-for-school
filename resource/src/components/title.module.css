@@ -1,49 +1,41 @@
 .header {
   font-size: 30px;
-  /* background-image: linear-gradient(to right, #b9f3d5, #49f846); */
-  /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcpAka8XVHMJpU7o3gwu02ekQv8btBesfYTZ6wbmBbe0z75Okp"); */
-  background-color: rgb(179, 175, 175);
+  background-color: rgb(216, 182, 182);
   background-size: cover;
   padding: 35px;
-  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 2); */
-  /* border-radius: 5px; */
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  /* text-align: left; */
   font-weight: bold;
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
 .titleContainer {
-  /* text-align: left; */
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Adds space between the icon and the title */
   flex: 1;
 }
+
 .title {
   color: black;
+  font-size: 50px; /* Adjusted font size for balance */
 }
-.missionStatement {
-  padding: 10px;
-  border: none;
-  cursor: pointer;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-  border-radius: 100px;
-  /* margin-left: 20px; */
-  font-size: 20px;
-  font-weight: bold;
-}
-.container {
-  /* text-align: right; */
-  display: flex;
-  gap: 10px;
-}
+
+.missionStatement,
 .contact {
   padding: 10px;
   border: none;
   cursor: pointer;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   border-radius: 100px;
-  margin-left: 20px;
   font-size: 20px;
   font-weight: bold;
+}
+
+.icon {
+  height: 90px;
+  width: 90px;
+  border-radius: 20px;
 }

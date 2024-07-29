@@ -3,8 +3,12 @@
   outline: none;
   border-radius: 20px;
   padding: 10px 20px;
-  background-color: hsl(221, 100%, 85%);
-  color: black;
+  background-color: var(
+    --gm3-button-filled-container-color,
+    var(--gm3-sys-color-primary, #0b57d0)
+  );
+  color: white;
+
   cursor: pointer;
   font-weight: bold;
   font-size: 15px;
