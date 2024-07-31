@@ -18,7 +18,9 @@ const ScrollRestoration = () => {
   }, [pathname]);
 
   useEffect(() => {
-    if (scrollPositions.current[pathname] !== undefined) {
+    if (pathname === "/resources") {
+      window.scrollTo(0, 150); // Always scroll to top for /resources
+    } else if (scrollPositions.current[pathname] !== undefined) {
       window.scrollTo(0, scrollPositions.current[pathname]);
     } else {
       window.scrollTo(0, 0);

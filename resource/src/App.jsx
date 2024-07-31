@@ -208,7 +208,10 @@ function App() {
         <NavBar />
         <Routes>
           <Route path="/" element={<OuterComponent apClasses={apClasses} />} />
-          <Route path="/resources" element={<AnotherPage />} />
+          <Route
+            path="/resources"
+            element={<AnotherPage apList={apClasses} />}
+          />
           <Route path="/contact" element={<ContactForm />} />
           <Route path="/mission-statement" element={<MissionStatement />} />
         </Routes>
