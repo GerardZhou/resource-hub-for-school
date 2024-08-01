@@ -15,3 +15,13 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
   margin: 0 auto;
 }
+
+/* Media Query for Mobile Devices */
+@media (max-width: 600px) {
+  .button {
+    padding: 8px 15px; /* Adjust padding for mobile devices */
+    font-size: 2.5vw; /* Adjust font size for mobile devices */
+    width: 100%; /* Make button full width on mobile devices */
+    box-sizing: border-box; /* Ensure padding is included in the width */
+  }
+}
