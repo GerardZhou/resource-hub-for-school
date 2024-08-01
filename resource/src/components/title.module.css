@@ -19,7 +19,9 @@
 }
 
 .title {
-  color: black;
+  background: linear-gradient(to left, blue, rgba(216, 94, 94, 0.966));
+  background-clip: text;
+  color: transparent;
   font-size: 50px; /* Adjusted font size for balance */
 }
 

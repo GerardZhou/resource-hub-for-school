@@ -16,17 +16,23 @@
   margin-bottom: 20px;
 }
 .comp {
+  /*style for each individual resource*/
   background-image: linear-gradient(to right, #eaf1ef, #ddeee8);
   max-width: 250px;
   margin: 10px auto;
   padding: 20px;
-  box-shadow: 0 4px 8px rgb(0, 0, 0, 1);
+  box-shadow: 0 4px 8px rgb(0, 0, 0, 0.2);
   border-radius: 10px;
   font-family: Polysans, sans-serif;
   color: rgb(0, 0, 0);
   font-weight: bold;
   font-size: 20px;
 }
+.comp:hover {
+  box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.3),
+    -7px -7px 7px rgb(221, 217, 217);
+}
+
 .container {
   /* background-image: linear-gradient(to right, #e4f4f9, #c4e6fc); */
   /* box-shadow: 0 4px 8px rgb(0, 0, 0, 0.2); */
