@@ -2,10 +2,46 @@
   max-width: 800px;
   margin: 100px auto;
   padding: 2em;
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(47, 46, 46, 0.9);
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   font-family: Arial, sans-serif;
+  position: relative;
+  color: white;
+}
+@property --angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+.contactForm::after,
+.contactForm::before {
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  border-radius: 13px; /* Adjust to match the border-radius + padding */
+  z-index: -1; /* Ensure the border appears behind the .missionStatement */
+  background-image: conic-gradient(
+    from var(--angle),
+    transparent 70%,
+    rgb(162, 69, 118)
+  );
+  animation: 3s spin linear infinite;
+}
+.contactForm::before {
+  filter: blur(1.5rem);
+  opacity: 0.5;
+}
+@keyframes spin {
+  from {
+    --angle: 0deg;
+  }
+  to {
+    --angle: 360deg;
+  }
 }
 
 .heading {
@@ -35,12 +71,13 @@
   display: block;
   width: 100%;
   padding: 1em;
-  background: #333;
-  color: white;
+  background: #cac8c8;
+  color: rgb(0, 0, 0);
   border: none;
   border-radius: 5px;
   cursor: pointer;
   font-size: 1em;
+  font-weight: bold;
 }
 
 .button:hover {

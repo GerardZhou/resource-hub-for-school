@@ -41,7 +41,7 @@ export default function ContactForm() {
           {message}
         </p>
       )}
-      <form ref={form} onSubmit={sendEmail}>
+      <form className={styles.formContainer} ref={form} onSubmit={sendEmail}>
         <div className={styles.inputGroup}>
           <label className={styles.label}>Name</label>
           <input type="text" name="user_name" className={styles.input} />

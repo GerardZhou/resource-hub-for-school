@@ -1,5 +1,5 @@
-/* src/MissionStatement.module.css */
 .missionStatement {
+  position: relative; /* Ensure positioning context for the pseudo-element */
   max-width: 800px;
   margin: 2em auto;
   padding: 2em;
@@ -10,7 +10,40 @@
   margin-top: 115px;
   margin-bottom: 115px;
 }
-
+@property --angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+.missionStatement::after,
+.missionStatement::before {
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  border-radius: 13px; /* Adjust to match the border-radius + padding */
+  z-index: -1; /* Ensure the border appears behind the .missionStatement */
+  background-image: conic-gradient(
+    from var(--angle),
+    transparent 70%,
+    rgb(162, 69, 118)
+  );
+  animation: 3s spin linear infinite;
+}
+.missionStatement::before {
+  filter: blur(1.5rem);
+  opacity: 0.5;
+}
+@keyframes spin {
+  from {
+    --angle: 0deg;
+  }
+  to {
+    --angle: 360deg;
+  }
+}
 .heading {
   margin-top: 0;
   font-size: 40px;
