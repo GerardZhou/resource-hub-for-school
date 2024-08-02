@@ -10,8 +10,16 @@ import VisitorCounter from "./components/VisitorCounter";
 import ContactForm from "./components/ContactForm";
 import MissionStatement from "./components/MissionStatement";
 import NavBar from "./components/NavBar";
+import ReactGA from "react-ga4";
 
 import "./app.css";
+
+ReactGA.initialize("G-P5G3ZYM1KL");
+ReactGA.send({
+  hitType: "pageview",
+  page: window.location.pathname,
+});
+
 function App() {
   const apClasses = [
     {
