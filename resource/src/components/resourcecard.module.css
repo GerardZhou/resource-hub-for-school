@@ -1,35 +1,25 @@
 .image {
   display: block; /* Flex might not be necessary unless you're in a flex container */
   width: 100%; /* Adjust width as needed */
-  height: 200px; /* Maintain aspect ratio */
+  height: clamp(6.5em, 9em, 12.5em); /* 115px to 200px */
   border-radius: 50%;
-  margin-bottom: 10px;
+  margin-bottom: 0.625em; /* 10px */
   object-fit: cover;
   background-color: white;
 }
+
 .container {
   background-image: linear-gradient(to right, #eaf1ef, #ddeee8);
   /* background-color: #7980d5; */
-  max-width: 250px;
-  margin: 20px auto;
-  padding: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  border-radius: 10px;
+  max-width: clamp(6.5em, 12.75em, 15.625em); /* 150px to 250px */
+  margin: 1.05em auto; /* 20px */
+  padding: clamp(0.9375em, 3vw, 1.25em); /* 15px to 20px */
+  box-shadow: 0 0.25em 0.5em #00000033; /* 0 4px 8px */
+  border-radius: 0.625em; /* 10px */
   font-family: Polysans, sans-serif;
 }
-.container:hover {
-  box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.3),
-    -7px -7px 7px rgb(238, 234, 234);
-}
-@media (max-width: 600px) {
-  .container {
-    max-width: 50%;
-    min-width: 30%;
-    padding: 15px;
-    margin: 10px auto;
-  }
 
-  .image {
-    height: 115px;
-  }
+.container:hover {
+  box-shadow: 0.75em 0.75em 0.75em rgba(0, 0, 0, 0.3),
+    -0.4375em -0.4375em 0.4375em rgb(238, 234, 234); /* 12px 12px 12px and -7px -7px 7px */
 }

@@ -2,7 +2,7 @@
 .nav {
   background-color: #333;
   padding: 1em;
-  font-size: 20px;
+  font-size: clamp(0.75em, 1.25em, 2em);
 }
 
 .list {
