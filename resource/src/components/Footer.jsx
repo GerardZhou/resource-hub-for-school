@@ -18,13 +18,14 @@ export default function Footer() {
           />
         </a>
         <a
-          href="https://www.tiktok.com/@resourcehubforschool"
+          href="https://www.youtube.com/channel/UCuYyTP-qHLiiK-TpcyVqAIA?sub_confirmation=1
+"
           target="_blank"
           rel="noopener noreferrer"
         >
           <img
-            src="https://static-00.iconduck.com/assets.00/tik-tok-icon-2048x2048-mmnsrcbe.png"
-            alt="TikTok"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoiMtJG_PC4lsb3-GZAiTZkUXAm3VlkJC1Ag&s"
+            alt="Youtube"
             className={styles.icon}
           />
         </a>
