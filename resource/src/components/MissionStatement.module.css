@@ -1,14 +1,14 @@
 .missionStatement {
   position: relative; /* Ensure positioning context for the pseudo-element */
-  max-width: 800px;
+  max-width: 50em; /* 800px / 16 */
   margin: 2em auto;
   padding: 2em;
   background: rgb(213, 213, 213);
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 0.625em; /* 10px / 16 */
+  box-shadow: 0 0 0.625em rgba(0, 0, 0, 0.5); /* 10px / 16 */
   font-family: Arial, sans-serif;
-  margin-top: 115px;
-  margin-bottom: 115px;
+  margin-top: 7.1875em; /* 115px / 16 */
+  margin-bottom: 7.1875em; /* 115px / 16 */
 }
 @property --angle {
   syntax: "<angle>";
@@ -19,11 +19,11 @@
 .missionStatement::before {
   content: "";
   position: absolute;
-  top: -5px;
-  left: -5px;
-  right: -5px;
-  bottom: -5px;
-  border-radius: 13px; /* Adjust to match the border-radius + padding */
+  top: -0.3125em; /* 5px / 16 */
+  left: -0.3125em; /* 5px / 16 */
+  right: -0.3125em; /* 5px / 16 */
+  bottom: -0.3125em; /* 5px / 16 */
+  border-radius: 0.8125em; /* 13px / 16 */
   z-index: -1; /* Ensure the border appears behind the .missionStatement */
   background-image: conic-gradient(
     from var(--angle),
@@ -33,7 +33,7 @@
   animation: 3s spin linear infinite;
 }
 .missionStatement::before {
-  filter: blur(1.5rem);
+  filter: blur(1.5em); /* 24px / 16 */
   opacity: 0.5;
 }
 @keyframes spin {
@@ -46,10 +46,10 @@
 }
 .heading {
   margin-top: 0;
-  font-size: 40px;
+  font-size: 2.5em; /* 40px / 16 */
 }
 
 .paragraph {
   line-height: 1.6;
-  font-size: 25px;
+  font-size: 1.5625em; /* 25px / 16 */
 }
