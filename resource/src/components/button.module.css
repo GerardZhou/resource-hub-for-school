@@ -1,25 +1,24 @@
 .button {
   display: flex;
   outline: none;
-  border-radius: 20px;
-  padding: 10px 20px;
+  border-radius: 1.25em; /* 20px / 16 */
+  padding: 0.625em 1.25em; /* 10px 20px / 16 */
   background-color: var(
     --gm3-button-filled-container-color,
     var(--gm3-sys-color-primary, #0b57d0)
   );
   color: white;
-
   cursor: pointer;
   font-weight: bold;
-  font-size: 15px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  font-size: 0.9375em; /* 15px / 16 */
+  box-shadow: 0 0.25em 0.5em rgba(0, 0, 0, 0.5); /* 4px 8px / 16 */
   margin: 0 auto;
 }
 
 /* Media Query for Mobile Devices */
 @media (max-width: 600px) {
   .button {
-    padding: 8px 15px; /* Adjust padding for mobile devices */
+    padding: 0.5em 0.9375em; /* 8px 15px / 16 */
     font-size: 2.5vw; /* Adjust font size for mobile devices */
     width: 100%; /* Make button full width on mobile devices */
     box-sizing: border-box; /* Ensure padding is included in the width */
