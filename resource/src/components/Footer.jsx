@@ -18,8 +18,7 @@ export default function Footer() {
           />
         </a>
         <a
-          href="https://www.youtube.com/channel/UCuYyTP-qHLiiK-TpcyVqAIA?sub_confirmation=1
-"
+          href="https://www.youtube.com/channel/UCuYyTP-qHLiiK-TpcyVqAIA?sub_confirmation=1"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -30,13 +29,13 @@ export default function Footer() {
           />
         </a>
         <a
-          href="https://x.com/AP_Resource_Hub"
+          href="https://www.linkedin.com/in/resource-hub-for-school-b89255321/"
           target="_blank"
           rel="noopener noreferrer"
         >
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/5/5a/X_icon_2.svg"
-            alt="X (Twitter)"
+            src="https://cdn1.iconfinder.com/data/icons/logotypes/32/circle-linkedin-512.png"
+            alt="Linkedin"
             className={styles.icon}
           />
         </a>
