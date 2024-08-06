@@ -1,10 +1,10 @@
 .contactForm {
-  max-width: 800px;
-  margin: 100px auto;
+  max-width: 50em; /* 800px / 16 */
+  margin: 6.25em auto; /* 100px / 16 */
   padding: 2em;
   background: rgb(37, 36, 36);
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 0.625em; /* 10px / 16 */
+  box-shadow: 0 0 0.625em rgba(0, 0, 0, 0.1); /* 10px / 16 */
   font-family: Arial, sans-serif;
   position: relative;
   color: white;
@@ -18,11 +18,11 @@
 .contactForm::before {
   content: "";
   position: absolute;
-  top: -5px;
-  left: -5px;
-  right: -5px;
-  bottom: -5px;
-  border-radius: 13px; /* Adjust to match the border-radius + padding */
+  top: -0.3125em; /* 5px / 16 */
+  left: -0.3125em; /* 5px / 16 */
+  right: -0.3125em; /* 5px / 16 */
+  bottom: -0.3125em; /* 5px / 16 */
+  border-radius: 0.8125em; /* 13px / 16 */
   z-index: -1; /* Ensure the border appears behind the .missionStatement */
   background-image: conic-gradient(
     from var(--angle),
@@ -32,7 +32,7 @@
   animation: 3s spin linear infinite;
 }
 .contactForm::before {
-  filter: blur(1.5rem);
+  filter: blur(1.5em); /* 24px / 16 */
   opacity: 0.5;
 }
 @keyframes spin {
@@ -63,7 +63,7 @@
 .textarea {
   width: 100%;
   padding: 0.5em;
-  border-radius: 5px;
+  border-radius: 0.3125em; /* 5px / 16 */
   border: 1px solid #ccc;
 }
 
@@ -74,7 +74,7 @@
   background: #cac8c8;
   color: rgb(0, 0, 0);
   border: none;
-  border-radius: 5px;
+  border-radius: 0.3125em; /* 5px / 16 */
   cursor: pointer;
   font-size: 1em;
   font-weight: bold;
@@ -87,15 +87,15 @@
 .successMessage {
   background: lightgreen;
   color: darkgreen;
-  padding: 10px;
-  border-radius: 5px;
+  padding: 0.625em; /* 10px / 16 */
+  border-radius: 0.3125em; /* 5px / 16 */
   margin-bottom: 1em;
 }
 
 .errorMessage {
   background: lightcoral;
   color: darkred;
-  padding: 10px;
-  border-radius: 5px;
+  padding: 0.625em; /* 10px / 16 */
+  border-radius: 0.3125em; /* 5px / 16 */
   margin-bottom: 1em;
 }
