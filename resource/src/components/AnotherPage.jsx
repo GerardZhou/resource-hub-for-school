@@ -132,6 +132,10 @@ function AnotherPage() {
           url: "https://www.khanacademy.org/science/ap-chemistry",
         },
         {
+          name: "Abigal Giordano",
+          url: "https://www.youtube.com/@GiordanoAPChemistry",
+        },
+        {
           name: "Bozeman Science",
           url: "http://www.bozemanscience.com/ap-chemistry",
         },
@@ -139,13 +143,6 @@ function AnotherPage() {
           name: "AP Chemistry Ultimate Review",
           url: "https://docs.google.com/document/d/1oqabXpncmbTzDiCWdklvkeoFlet4UeBtcUpq7Ae2qC4/edit",
         },
-        { name: "ChemCollective", url: "http://chemcollective.org/" },
-        {
-          name: "Crash Course Chemistry",
-          url: "https://thecrashcourse.com/courses/chemistry",
-        },
-        { name: "FlinnPrep", url: "https://www.flinnprep.com/ap-chemistry/" },
-        { name: "Chemguide", url: "https://www.chemguide.co.uk/" },
       ],
     },
     {
@@ -180,10 +177,6 @@ function AnotherPage() {
         {
           name: "Khan Academy",
           url: "https://www.khanacademy.org/humanities/ap-us-government-and-politics",
-        },
-        {
-          name: "SparkNotes",
-          url: "https://www.sparknotes.com/us-government-and-politics/",
         },
         {
           name: "Shmoop",

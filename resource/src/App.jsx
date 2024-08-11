@@ -2,6 +2,7 @@ import { useState } from "react";
 import ResourceCard from "./components/ResourceCard";
 import OuterComponent from "./components/OuterComponent";
 import Title from "./components/Title";
+import Test from "./components/Test";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import AnotherPage from "./components/AnotherPage";
 import Footer from "./components/Footer";
