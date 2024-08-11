@@ -24,6 +24,11 @@ ReactGA.send({
 function App() {
   const apClasses = [
     {
+      name: "AP Practice Tests",
+      image:
+        "https://www.healthyplace.com/sites/default/files/images/stories/Self-Help/adhd-exams-healthyplace.jpg",
+    },
+    {
       name: "AP Art History",
       image:
         "https://about.jstor.org/wp-content/uploads/2013/10/armnig_10313257933.jpg",

@@ -1,25 +1,49 @@
 .image {
-  display: block; /* Flex might not be necessary unless you're in a flex container */
-  width: 100%; /* Adjust width as needed */
-  height: clamp(6.5em, 9em, 12.5em); /* 115px to 200px */
+  display: block;
+  width: 100%;
+  height: clamp(5em, 10em, 11em); /* Adjusted height for mobile */
   border-radius: 50%;
-  margin-bottom: 0.625em; /* 10px */
+  margin-bottom: 0.5em; /* Reduced margin for mobile */
   object-fit: cover;
   background-color: white;
 }
 
 .container {
   background-image: linear-gradient(to right, #eaf1ef, #ddeee8);
-  /* background-color: #7980d5; */
-  max-width: clamp(6.5em, 12.75em, 15.625em); /* 150px to 250px */
-  margin: 1.05em auto; /* 20px */
-  padding: clamp(0.9375em, 3vw, 1.25em); /* 15px to 20px */
-  box-shadow: 0 0.25em 0.5em #00000033; /* 0 4px 8px */
-  border-radius: 0.625em; /* 10px */
+  max-width: clamp(6.5em, 13.5em, 14em); /* Adjusted width for mobile */
+  margin: 0.875em auto; /* Reduced margin for mobile */
+  padding: clamp(0.75em, 2.5vw, 1em); /* Adjusted padding for mobile */
+  box-shadow: 0 0.2em 0.4em #00000033; /* Slightly reduced shadow for mobile */
+  border-radius: 0.5em; /* Slightly reduced border radius for mobile */
   font-family: Polysans, sans-serif;
 }
 
 .container:hover {
-  box-shadow: 0.75em 0.75em 0.75em rgba(0, 0, 0, 0.3),
-    -0.4375em -0.4375em 0.4375em rgb(238, 234, 234); /* 12px 12px 12px and -7px -7px 7px */
+  box-shadow: 0.6em 0.6em 0.6em rgba(0, 0, 0, 0.3),
+    -0.375em -0.375em 0.375em rgb(238, 234, 234); /* Adjusted hover effect for mobile */
+}
+
+/* Further adjustments using media queries */
+@media (max-width: 600px) {
+  .image {
+    height: clamp(
+      4em,
+      4.5em,
+      5em
+    ); /* Further reduced height for smaller screens */
+    margin-bottom: 0.5em;
+  }
+
+  .container {
+    max-width: clamp(
+      6em,
+      6.5em,
+      7.5em
+    ); /* Adjusted container width for small screens */
+    padding: clamp(
+      0.625em,
+      2vw,
+      0.875em
+    ); /* More compact padding for small screens */
+  }
 }

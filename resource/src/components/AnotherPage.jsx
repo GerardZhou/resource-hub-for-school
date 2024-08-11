@@ -11,6 +11,27 @@ function AnotherPage() {
   const resourceId = params.get("resourceId");
   const apResources = [
     {
+      class: "AP Practice Tests",
+      resources: [
+        {
+          name: "Albert IO AP Practice Tests",
+          url: "https://www.albert.io/subjects/high-school/ap",
+        },
+        {
+          name: "Kaplan AP Practice Tests",
+          url: "https://www.kaptest.com/study/ap-exam/",
+        },
+        {
+          name: "High School Test Prep AP practice tests",
+          url: "https://highschooltestprep.com/ap/",
+        },
+        {
+          name: "Varsity Tutor Diagnostic Tests",
+          url: "https://www.varsitytutors.com/advanced_placement-practice-tests",
+        },
+      ],
+    },
+    {
       class: "AP Art History",
       resources: [
         {
@@ -1093,6 +1114,11 @@ function AnotherPage() {
     },
   ];
   const apList = [
+    {
+      name: "AP Practice Tests",
+      image:
+        "https://www.healthyplace.com/sites/default/files/images/stories/Self-Help/adhd-exams-healthyplace.jpg",
+    },
     {
       name: "AP Art History",
       image:

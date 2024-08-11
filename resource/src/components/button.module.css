@@ -19,7 +19,7 @@
 @media (max-width: 600px) {
   .button {
     padding: 0.5em 0.9375em; /* 8px 15px / 16 */
-    font-size: 2.5vw; /* Adjust font size for mobile devices */
+    font-size: 2vw; /* Adjust font size for mobile devices */
     width: 100%; /* Make button full width on mobile devices */
     box-sizing: border-box; /* Ensure padding is included in the width */
   }
