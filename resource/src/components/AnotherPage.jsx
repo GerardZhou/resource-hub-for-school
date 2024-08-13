@@ -26,6 +26,10 @@ function AnotherPage() {
           url: "https://www.kaptest.com/study/ap-exam/",
         },
         {
+          name: "Knowt practice and FRQ",
+          url: "https://knowt.com/exams/AP",
+        },
+        {
           name: "High School Test Prep AP practice tests",
           url: "https://highschooltestprep.com/ap/",
         },
@@ -718,6 +722,10 @@ function AnotherPage() {
     {
       class: "AP Physics 1",
       resources: [
+        {
+          name: "MIT College workbook",
+          url: "https://web.mit.edu/~yczeng/Public/WORKBOOK%201%20FULL.pdf",
+        },
         {
           name: "College Board",
           url: "https://apstudents.collegeboard.org/courses/ap-physics-1",
