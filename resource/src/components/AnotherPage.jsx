@@ -14,6 +14,10 @@ function AnotherPage() {
       class: "AP Practice Tests",
       resources: [
         {
+          name: "CrackAP Practice Exams (A lot of practice tests)",
+          url: "https://www.crackap.com/ap/index.html",
+        },
+        {
           name: "Albert IO AP Practice Tests",
           url: "https://www.albert.io/subjects/high-school/ap",
         },
