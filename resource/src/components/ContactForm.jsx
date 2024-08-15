@@ -44,11 +44,21 @@ export default function ContactForm() {
       <form className={styles.formContainer} ref={form} onSubmit={sendEmail}>
         <div className={styles.inputGroup}>
           <label className={styles.label}>Name</label>
-          <input type="text" name="user_name" className={styles.input} />
+          <input
+            required
+            type="text"
+            name="user_name"
+            className={styles.input}
+          />
         </div>
         <div className={styles.inputGroup}>
           <label className={styles.label}>Email</label>
-          <input type="email" name="user_email" className={styles.input} />
+          <input
+            required
+            type="email"
+            name="user_email"
+            className={styles.input}
+          />
         </div>
         <div className={styles.inputGroup}>
           <label className={styles.label}>Message</label>
