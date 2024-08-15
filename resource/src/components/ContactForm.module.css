@@ -9,41 +9,6 @@
   position: relative;
   color: white;
 }
-@property --angle {
-  syntax: "<angle>";
-  initial-value: 0deg;
-  inherits: false;
-}
-.contactForm::after,
-.contactForm::before {
-  content: "";
-  position: absolute;
-  top: -0.3125em; /* 5px / 16 */
-  left: -0.3125em; /* 5px / 16 */
-  right: -0.3125em; /* 5px / 16 */
-  bottom: -0.3125em; /* 5px / 16 */
-  border-radius: 0.8125em; /* 13px / 16 */
-  z-index: -1; /* Ensure the border appears behind the .missionStatement */
-  background-image: conic-gradient(
-    from var(--angle),
-    transparent 70%,
-    rgb(162, 69, 118)
-  );
-  animation: 3s spin linear infinite;
-}
-.contactForm::before {
-  filter: blur(1.5em); /* 24px / 16 */
-  opacity: 0.5;
-}
-@keyframes spin {
-  from {
-    --angle: 0deg;
-  }
-  to {
-    --angle: 360deg;
-  }
-}
-
 .heading {
   margin-top: 0;
   font-size: 1.5em;
