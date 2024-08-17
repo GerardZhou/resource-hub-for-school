@@ -789,6 +789,10 @@ function AnotherPage() {
       class: "AP Physics C: Electricity and Magnetism",
       resources: [
         {
+          name: "AP Physics C – Practice Workbook",
+          url: "https://drive.google.com/file/d/1rpQpEDoI217iUQk8un-QYVd5x6XXq62a/view?usp=sharing",
+        },
+        {
           name: "College Board",
           url: "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
         },
@@ -1319,14 +1323,13 @@ function AnotherPage() {
   const handleReturnHome = () => {
     navigate("/");
   };
-
   return (
     <div className={styles.container}>
       {apResources.map((apClass, index) => (
         <div>
           {apClass.class === resourceId ? (
             <div>
-              <div className={styles.imageContainer}>
+              {/* <div className={styles.imageContainer}>
                 {apList.map((elem, index) => (
                   <div key={index}>
                     {apClass.class === elem.name ? (
@@ -1334,10 +1337,11 @@ function AnotherPage() {
                     ) : null}
                   </div>
                 ))}
-              </div>
+              </div> */}
+              <div className={styles.space}> </div>{" "}
               <div className={styles.className}>{apClass.class}</div>{" "}
-              <ol>
-                <li className={styles.comp}>
+              <div>
+                <div className={styles.comp}>
                   <a
                     href="https://www.youtube.com/@advancedplacement"
                     target="_blank"
@@ -1345,9 +1349,9 @@ function AnotherPage() {
                   >
                     AP Youtube Channel
                   </a>
-                </li>
+                </div>
                 {apClass.resources.map((resource, idx) => (
-                  <li className={styles.comp}>
+                  <div className={styles.comp}>
                     <a
                       href={resource.url}
                       target="_blank"
@@ -1355,9 +1359,9 @@ function AnotherPage() {
                     >
                       {resource.name}
                     </a>
-                  </li>
+                  </div>
                 ))}
-              </ol>{" "}
+              </div>{" "}
             </div>
           ) : null}
         </div>
@@ -1365,6 +1369,7 @@ function AnotherPage() {
       <button className={styles.button} onClick={handleReturnHome}>
         Return Home
       </button>
+      <header className={styles.space}></header>{" "}
     </div>
   );
 }

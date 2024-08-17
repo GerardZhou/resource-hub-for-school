@@ -41,3 +41,33 @@
   width: 4.625em; /* 90px */
   border-radius: 1.25em; /* 20px */
 }
+@media (max-width: 600px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1.5em; /* Adjusted padding for mobile */
+  }
+
+  .titleContainer {
+    gap: 0.5em; /* Adjusted gap for mobile */
+  }
+
+  .title {
+    font-size: 1.875em; /* 30px, smaller font size for mobile */
+    text-align: center;
+    width: 100%; /* Ensure the title takes the full width on mobile */
+  }
+
+  .missionStatement,
+  .contact {
+    padding: 0.625em; /* Adjusted padding for mobile */
+    font-size: 1em; /* Adjusted font size for mobile */
+    width: 100%; /* Ensure buttons take full width on mobile */
+    margin-bottom: 0.5em; /* Add space between buttons on mobile */
+  }
+
+  .icon {
+    height: 3.125em; /* 50px, smaller icon size for mobile */
+    width: 3.125em; /* 50px, smaller icon size for mobile */
+  }
+}

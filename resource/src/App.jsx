@@ -7,11 +7,11 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import AnotherPage from "./components/AnotherPage";
 import Footer from "./components/Footer";
 import ScrollRestoration from "./components/ScrollRestoration";
-import VisitorCounter from "./components/VisitorCounter";
 import ContactForm from "./components/ContactForm";
 import MissionStatement from "./components/MissionStatement";
 import NavBar from "./components/NavBar";
 import ReactGA from "react-ga4";
+import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 
 import "./app.css";
 
@@ -230,7 +230,6 @@ function App() {
           <Route path="/mission-statement" element={<MissionStatement />} />
         </Routes>
       </Router>
-      {/* <VisitorCounter /> */}
       <Footer />
     </div>
   );

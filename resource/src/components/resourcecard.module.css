@@ -1,6 +1,6 @@
 .image {
   display: block;
-  width: 100%;
+  width: 10em;
   height: clamp(5em, 10em, 11em); /* Adjusted height for mobile */
   border-radius: 50%;
   margin-bottom: 0.5em; /* Reduced margin for mobile */
@@ -10,12 +10,15 @@
 
 .container {
   background-image: linear-gradient(to right, #eaf1ef, #ddeee8);
-  max-width: clamp(6.5em, 13.5em, 14em); /* Adjusted width for mobile */
+  max-width: 50%; /* Adjusted width for mobile */
   margin: 0.875em auto; /* Reduced margin for mobile */
   padding: clamp(0.75em, 2.5vw, 1em); /* Adjusted padding for mobile */
   box-shadow: 0 0.2em 0.4em #00000033; /* Slightly reduced shadow for mobile */
   border-radius: 0.5em; /* Slightly reduced border radius for mobile */
   font-family: Polysans, sans-serif;
+  display: flex; /* Added flexbox */
+  flex-direction: column; /* Align children vertically */
+  align-items: center; /* Center children horizontally */
 }
 
 .container:hover {
@@ -27,9 +30,9 @@
 @media (max-width: 600px) {
   .image {
     height: clamp(
-      4em,
-      4.5em,
-      5em
+      7em,
+      8.5em,
+      9em
     ); /* Further reduced height for smaller screens */
     margin-bottom: 0.5em;
   }

@@ -1,11 +1,11 @@
 .button {
   display: flex;
   outline: none;
-  border-radius: 1.25em; /* 20px / 16 */
+  border-radius: 0.75em; /* 20px / 16 */
   padding: 0.625em 1.25em; /* 10px 20px / 16 */
   background-color: var(
     --gm3-button-filled-container-color,
-    var(--gm3-sys-color-primary, #0b57d0)
+    var(--gm3-sys-color-primary, #3e80e9)
   );
   color: white;
   cursor: pointer;
@@ -13,8 +13,17 @@
   font-size: 0.9375em; /* 15px / 16 */
   margin: 0 auto;
   margin-top: 3.125em; /* 50px / 16 */
-  margin-bottom: 1.25em; /* 20px / 16 */
+  /* margin-bottom: 1.25em; /* 20px / 16 */
+  transition: background-color 0.2s ease, box-shadow 0.2s ease;
 }
+.button:hover {
+  background-color: var(
+    --gm3-button-filled-container-hover-color,
+    var(--gm3-sys-color-primary-dark, rgb(92, 170, 252))
+  );
+  box-shadow: 0 0.25em 0.75em rgba(0, 0, 0, 0.6); /* 4px 12px / 16 */
+}
+
 .comp {
   /*style for each individual resource*/
   background-image: linear-gradient(to right, #eaf1ef, #ddeee8);
@@ -34,7 +43,7 @@
 }
 
 .container {
-  /* background-image: linear-gradient(to right, #e4f4f9, #c4e6fc); */
+  background-image: url("https://mrwallpaper.com/images/hd/big-beautiful-full-moon-and-field-j8d8rg9mjzar1lpo.jpg");
   /* box-shadow: 0 4px 8px rgb(0, 0, 0, 0.2); */
   border-radius: 0.625em; /* 10px / 16 */
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -42,9 +51,9 @@
 }
 .className {
   font-size: 1.875em; /* 30px / 16 */
-  color: black;
+  color: white;
   font-weight: bold;
-  margin-top: 0.9375em; /* 15px / 16 */
+  /* margin-top: 0.9375em; 15px / 16 */
   text-align: center;
 }
 .number {
@@ -64,4 +73,7 @@
 .imageContainer {
   text-align: center;
   padding-top: 1.5em;
+}
+.space {
+  padding: 1em;
 }
