@@ -15,7 +15,7 @@
   padding: clamp(0.75em, 2.5vw, 1em); /* Adjusted padding for mobile */
   box-shadow: 0 0.2em 0.4em #00000033; /* Slightly reduced shadow for mobile */
   border-radius: 0.5em; /* Slightly reduced border radius for mobile */
-  font-family: Polysans, sans-serif;
+  font-family: Calibri, sans-serif;
   display: flex; /* Added flexbox */
   flex-direction: column; /* Align children vertically */
   align-items: center; /* Center children horizontally */

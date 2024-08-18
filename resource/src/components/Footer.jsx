@@ -29,6 +29,17 @@ export default function Footer() {
           />
         </a>
         <a
+          href="https://www.tiktok.com/@ap_resources_hub"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyjc4jXJr2nFvOI6Om1YPhEEDnH13pbk_Yug&s"
+            alt="TikTok"
+            className={styles.icon}
+          />
+        </a>
+        <a
           href="https://www.linkedin.com/in/resource-hub-for-school-b89255321/"
           target="_blank"
           rel="noopener noreferrer"
