@@ -43,6 +43,10 @@ function AnotherPage() {
       class: "AP Art History",
       resources: [
         {
+          name: "AP Art History Youtube Playlist",
+          url: "https://youtube.com/playlist?list=PLoGgviqq484479U3Mvh2nUNvSUSPyZohj&si=lvCX41bxRTpW9Ju4",
+        },
+        {
           name: "College Board",
           url: "https://apstudents.collegeboard.org/courses/ap-art-history",
         },
@@ -70,6 +74,10 @@ function AnotherPage() {
     {
       class: "AP Biology",
       resources: [
+        {
+          name: "AP Biology YouTube Playlist",
+          url: "https://www.youtube.com/playlist?list=PLoGgviqq4847VchRdUdvbDPzsp9ResrjD",
+        },
         {
           name: "College Board",
           url: "https://apstudents.collegeboard.org/courses/ap-biology",
@@ -99,6 +107,10 @@ function AnotherPage() {
       class: "AP Calculus AB",
       resources: [
         {
+          name: "AP Calculus AB YouTube Playlist",
+          url: "https://youtube.com/playlist?list=PLoGgviqq4844keKrijbR_EPKRNIW6hahV&si=1sNTDXomw2kdjKMD",
+        },
+        {
           name: "College Board",
           url: "https://apstudents.collegeboard.org/courses/ap-calculus-ab",
         },
@@ -125,6 +137,10 @@ function AnotherPage() {
     {
       class: "AP Calculus BC",
       resources: [
+        {
+          name: "AP Calculus BC YouTube Playlist",
+          url: "https://www.youtube.com/playlist?list=PLoGgviqq4844oVJMjJ8YkD4mQIoMp4Cbu",
+        },
         {
           name: "College Board",
           url: "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
@@ -153,6 +169,10 @@ function AnotherPage() {
       class: "AP Chemistry",
       resources: [
         {
+          name: "AP Chemistry YouTube Playlist",
+          url: "https://www.youtube.com/playlist?list=PLoGgviqq4845Sy3UfnNh_PljzAptMR7MQ",
+        },
+        {
           name: "College Board",
           url: "https://apstudents.collegeboard.org/courses/ap-chemistry",
         },
@@ -178,6 +198,10 @@ function AnotherPage() {
       class: "AP Chinese Language and Culture",
       resources: [
         {
+          name: "AP Chinese YouTube Playlist",
+          url: "https://www.youtube.com/playlist?list=PLoGgviqq4847R2JKQ7-nYVhrnD2ajSG7Y",
+        },
+        {
           name: "College Board",
           url: "https://apstudents.collegeboard.org/courses/ap-chinese-language-and-culture",
         },
@@ -199,6 +223,10 @@ function AnotherPage() {
     {
       class: "AP Comparative Government and Politics",
       resources: [
+        {
+          name: "AP Comparative Government and Politics YouTube Playlist",
+          url: "https://www.youtube.com/playlist?list=PLoGgviqq4847a2DzrJb-ftSzsICV5Gdi0",
+        },
         {
           name: "College Board",
           url: "https://apstudents.collegeboard.org/courses/ap-comparative-government-and-politics",
@@ -229,6 +257,10 @@ function AnotherPage() {
     {
       class: "AP Computer Science A",
       resources: [
+        {
+          name: "AP Computer Science A YouTube Playlist",
+          url: "https://www.youtube.com/playlist?list=PLoGgviqq4845xKOY11PnkE7aqJC7-bYrd",
+        },
         {
           name: "Coding Bat",
           url: "https://codingbat.com/java",
@@ -265,6 +297,10 @@ function AnotherPage() {
       class: "AP Computer Science Principles",
       resources: [
         {
+          name: "AP Computer Science Principles YouTube Playlist",
+          url: "https://www.youtube.com/playlist?list=PLoGgviqq4844vbwcKegJgIxSQyVHDzSXT",
+        },
+        {
           name: "College Board",
           url: "https://apstudents.collegeboard.org/courses/ap-computer-science-principles",
         },
@@ -300,6 +336,10 @@ function AnotherPage() {
       class: "AP English Language and Composition",
       resources: [
         {
+          name: "AP English Language and Composition YouTube Playlist",
+          url: "https://www.youtube.com/playlist?list=PLoGgviqq4845w6_VxQLtAmVypmSMtTd0r",
+        },
+        {
           name: "College Board",
           url: "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
         },
@@ -325,6 +365,10 @@ function AnotherPage() {
       class: "AP English Literature and Composition",
       resources: [
         {
+          name: "AP English Literature and Composition YouTube Playlist",
+          url: "https://www.youtube.com/playlist?list=PLoGgviqq4845L7Yj9c1kkIfdskkaLOUzD",
+        },
+        {
           name: "College Board",
           url: "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
         },
@@ -349,6 +393,10 @@ function AnotherPage() {
     {
       class: "AP Environmental Science",
       resources: [
+        {
+          name: "AP Environmental Science YouTube Playlist",
+          url: "https://www.youtube.com/playlist?list=PLoGgviqq4847IAo58jX32INd_UxDVW0YJ",
+        },
         {
           name: "College Board",
           url: "https://apstudents.collegeboard.org/courses/ap-environmental-science",
@@ -385,6 +433,10 @@ function AnotherPage() {
 
       resources: [
         {
+          name: "AP European History YouTube Playlist",
+          url: "https://www.youtube.com/playlist?list=PLoGgviqq48471wZEJTgkJCJxOw2q1wmYM",
+        },
+        {
           name: "Heimler History",
           url: "https://www.youtube.com/@heimlershistory/playlists",
         },
@@ -420,6 +472,10 @@ function AnotherPage() {
       class: "AP French Language and Culture",
       resources: [
         {
+          name: "AP French YouTube Playlist",
+          url: "https://www.youtube.com/playlist?list=PLoGgviqq48450RQdBgdqj-a4J0eD9lrkw",
+        },
+        {
           name: "College Board",
           url: "https://apstudents.collegeboard.org/courses/ap-french-language-and-culture",
         },
@@ -441,6 +497,10 @@ function AnotherPage() {
     {
       class: "AP German Language and Culture",
       resources: [
+        {
+          name: "AP German YouTube Playlist",
+          url: "https://www.youtube.com/playlist?list=PLoGgviqq4844xCVbFUawcSsJ_iOJ_3Cvt",
+        },
         {
           name: "College Board",
           url: "https://apstudents.collegeboard.org/courses/ap-german-language-and-culture",
@@ -464,6 +524,10 @@ function AnotherPage() {
       class: "AP Human Geography",
       resources: [
         {
+          name: "AP Human Geography YouTube Playlist",
+          url: "https://www.youtube.com/playlist?list=PLoGgviqq4847gGLvmfXPT5pYZRqBqsqLN",
+        },
+        {
           name: "Heimler History",
           url: "https://www.youtube.com/@heimlershistory/playlists",
         },
@@ -475,7 +539,6 @@ function AnotherPage() {
           name: "Khan Academy",
           url: "https://www.khanacademy.org/humanities/ap-human-geography",
         },
-        { name: "SparkNotes", url: "https://www.sparknotes.com/geography/" },
         {
           name: "Shmoop",
           url: "https://www.shmoop.com/study-guides/ap/human-geography",
@@ -495,6 +558,10 @@ function AnotherPage() {
     {
       class: "AP Italian Language and Culture",
       resources: [
+        {
+          name: "AP Italian YouTube Playlist",
+          url: "https://www.youtube.com/playlist?list=PLoGgviqq4844fvUz7G3obGEDqiz5q8G9L",
+        },
         {
           name: "College Board",
           url: "https://apstudents.collegeboard.org/courses/ap-italian-language-and-culture",
@@ -520,6 +587,10 @@ function AnotherPage() {
     {
       class: "AP Japanese Language and Culture",
       resources: [
+        {
+          name: "AP Japanese YouTube Playlist",
+          url: "https://www.youtube.com/playlist?list=PLoGgviqq4847sWgSD6H0I18jdFzxNrvGj",
+        },
         {
           name: "College Board",
           url: "https://apstudents.collegeboard.org/courses/ap-japanese-language-and-culture",
@@ -547,6 +618,10 @@ function AnotherPage() {
       class: "AP Latin",
       resources: [
         {
+          name: "AP Latin YouTube Playlist",
+          url: "https://www.youtube.com/playlist?list=PLoGgviqq48459FanuiZNHWzyvs8AfIEre",
+        },
+        {
           name: "College Board",
           url: "https://apstudents.collegeboard.org/courses/ap-latin",
         },
@@ -571,6 +646,10 @@ function AnotherPage() {
     {
       class: "AP Macroeconomics",
       resources: [
+        {
+          name: "AP Macroeconomics YouTube Playlist",
+          url: "https://www.youtube.com/playlist?list=PLoGgviqq4846HpniS9auPk8siwRF5LoPB",
+        },
         {
           name: "College Board",
           url: "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
@@ -601,6 +680,10 @@ function AnotherPage() {
     {
       class: "AP Research",
       resources: [
+        {
+          name: "AP Research YouTube Playlist",
+          url: "https://www.youtube.com/playlist?list=PLoGgviqq4845Tiot5ihu6Axzh81Po2mOo",
+        },
         {
           name: "College Board - AP Research",
           url: "https://apstudents.collegeboard.org/courses/ap-research",
@@ -639,6 +722,10 @@ function AnotherPage() {
       class: "AP Seminar",
       resources: [
         {
+          name: "AP Seminar YouTube Playlist",
+          url: "https://www.youtube.com/playlist?list=PLoGgviqq4847dwdY25XcCHLlN0uo0ccW6",
+        },
+        {
           name: "College Board - AP Seminar",
           url: "https://apstudents.collegeboard.org/courses/ap-seminar",
         },
@@ -676,6 +763,10 @@ function AnotherPage() {
       class: "AP Microeconomics",
       resources: [
         {
+          name: "AP Microeconomics YouTube Playlist",
+          url: "https://www.youtube.com/playlist?list=PLoGgviqq4847-M3z5bOgGoX1fWVshEsLL",
+        },
+        {
           name: "College Board",
           url: "https://apstudents.collegeboard.org/courses/ap-microeconomics",
         },
@@ -705,6 +796,10 @@ function AnotherPage() {
       class: "AP Music Theory",
       resources: [
         {
+          name: "AP Music Theory YouTube Playlist",
+          url: "https://www.youtube.com/playlist?list=PLoGgviqq4846e6QsN6lj_QzbOo-TDf86A",
+        },
+        {
           name: "College Board",
           url: "https://apstudents.collegeboard.org/courses/ap-music-theory",
         },
@@ -722,6 +817,10 @@ function AnotherPage() {
     {
       class: "AP Physics 1",
       resources: [
+        {
+          name: "AP Physics 1 YouTube Playlist",
+          url: "https://www.youtube.com/playlist?list=PLoGgviqq4847W5Jc1K3o99YHTGLx-L75m",
+        },
         {
           name: "MIT College workbook",
           url: "https://web.mit.edu/~yczeng/Public/WORKBOOK%201%20FULL.pdf",
@@ -758,6 +857,10 @@ function AnotherPage() {
       class: "AP Physics 2",
       resources: [
         {
+          name: "AP Physics 2 YouTube Playlist",
+          url: "https://www.youtube.com/playlist?list=PLoGgviqq4845KrxuxxrWj4WM7oM6Wxl1m",
+        },
+        {
           name: "College Board",
           url: "https://apstudents.collegeboard.org/courses/ap-physics-2",
         },
@@ -788,6 +891,10 @@ function AnotherPage() {
     {
       class: "AP Physics C: Electricity and Magnetism",
       resources: [
+        {
+          name: "AP Physics C: Electricity and Magnetism YouTube Playlist",
+          url: "https://www.youtube.com/playlist?list=PLoGgviqq4845HXjP2hMrCCHw-koPsj7oY",
+        },
         {
           name: "AP Physics C – Practice Workbook",
           url: "https://drive.google.com/file/d/1rpQpEDoI217iUQk8un-QYVd5x6XXq62a/view?usp=sharing",
@@ -824,6 +931,10 @@ function AnotherPage() {
       class: "AP Physics C: Mechanics",
       resources: [
         {
+          name: "AP Physics C: Mechanics YouTube Playlist",
+          url: "https://www.youtube.com/playlist?list=PLoGgviqq48467T6PU5a6QwxNgUb5SgI9V",
+        },
+        {
           name: "College Board",
           url: "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
         },
@@ -854,6 +965,10 @@ function AnotherPage() {
     {
       class: "AP Psychology",
       resources: [
+        {
+          name: "AP Psychology YouTube Playlist",
+          url: "https://www.youtube.com/playlist?list=PLoGgviqq4844U91iotDP7n7brR_ovoSFB",
+        },
         {
           name: "College Board",
           url: "https://apstudents.collegeboard.org/courses/ap-psychology",
@@ -890,6 +1005,10 @@ function AnotherPage() {
     {
       class: "AP Spanish Language and Culture",
       resources: [
+        {
+          name: "AP Spanish Language and Culture Youtube Playlist",
+          url: "https://www.youtube.com/playlist?list=PLoGgviqq4847NrGXhnmp6QnzSwknYH3SJ",
+        },
         {
           name: "College Board",
           url: "https://apstudents.collegeboard.org/courses/ap-spanish-language-and-culture",
@@ -969,6 +1088,10 @@ function AnotherPage() {
       class: "AP Studio Art: 3-D Design",
       resources: [
         {
+          name: "AP Studio Art: 3-D Design Youtube Playlist",
+          url: "https://www.youtube.com/playlist?list=PLoGgviqq4847cOCZ8RaO3D3SnvLpIzAW6",
+        },
+        {
           name: "College Board",
           url: "https://apstudents.collegeboard.org/courses/ap-studio-art-3d-design",
         },
@@ -990,6 +1113,10 @@ function AnotherPage() {
     {
       class: "AP Studio Art: 2-D Design",
       resources: [
+        {
+          name: "AP Studio Art: 3-D Design Youtube Playlist",
+          url: "https://www.youtube.com/playlist?list=PLoGgviqq4845m2Svz93jITSTAU5yt1QuW",
+        },
         {
           name: "College Board",
           url: "https://apstudents.collegeboard.org/courses/ap-studio-art-2d-design",
@@ -1013,6 +1140,10 @@ function AnotherPage() {
       class: "AP Studio Art: Drawing",
       resources: [
         {
+          name: "AP Drawing Youtube Playlist",
+          url: "https://www.youtube.com/playlist?list=PLoGgviqq4844OAmdzExvl2Qcm1Q4xImZl",
+        },
+        {
           name: "College Board",
           url: "https://apstudents.collegeboard.org/courses/ap-studio-art-drawing",
         },
@@ -1035,6 +1166,10 @@ function AnotherPage() {
     {
       class: "AP United States Government and Politics",
       resources: [
+        {
+          name: "AP US Government and Politics Youtube Playlist",
+          url: "https://www.youtube.com/playlist?list=PLoGgviqq4847dhi0SrQsNup5c76p7m3Ve",
+        },
         {
           name: "Heimler History",
           url: "https://www.youtube.com/@heimlershistory/playlists",
@@ -1064,6 +1199,10 @@ function AnotherPage() {
     {
       class: "AP United States History",
       resources: [
+        {
+          name: "AP US History Youtube Playlist",
+          url: "https://www.youtube.com/playlist?list=PLoGgviqq4847VRWTPXkDwxeVvNNfoKD7J",
+        },
         {
           name: "Heimler History",
           url: "https://www.youtube.com/@heimlershistory/playlists",
@@ -1100,6 +1239,10 @@ function AnotherPage() {
     {
       class: "AP World History",
       resources: [
+        {
+          name: "AP World History: Modern Youtube Playlist",
+          url: "https://www.youtube.com/playlist?list=PLoGgviqq4845dmFXqxdQ3LBR2fxLgv0GM",
+        },
         {
           name: "Heimler History",
           url: "https://www.youtube.com/@heimlershistory/playlists",
@@ -1341,15 +1484,6 @@ function AnotherPage() {
               <div className={styles.space}> </div>{" "}
               <div className={styles.className}>{apClass.class}</div>{" "}
               <div>
-                <div className={styles.comp}>
-                  <a
-                    href="https://www.youtube.com/@advancedplacement"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    AP Youtube Channel
-                  </a>
-                </div>
                 {apClass.resources.map((resource, idx) => (
                   <div className={styles.comp}>
                     <a
