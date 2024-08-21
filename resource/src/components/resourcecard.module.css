@@ -23,7 +23,7 @@
 
 .container:hover {
   box-shadow: 0.6em 0.6em 0.6em rgba(0, 0, 0, 0.3),
-    -0.3em -0.3em 0.3em rgb(238, 234, 234); /* Adjusted hover effect for mobile */
+    -0.35em -0.35em 0.35em rgb(238, 234, 234); /* Adjusted hover effect for mobile */
 }
 
 /* Further adjustments using media queries */
