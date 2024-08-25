@@ -119,18 +119,22 @@ function AnotherPage() {
           url: "https://www.khanacademy.org/math/ap-calculus-ab",
         },
         {
-          name: "Paul's Online Math Notes",
-          url: "http://tutorial.math.lamar.edu/Classes/CalcI/CalcI.aspx",
-        },
-        { name: "PatrickJMT", url: "http://patrickjmt.com/" },
-        { name: "Wolfram Alpha", url: "https://www.wolframalpha.com/" },
-        {
           name: "AP Calculus Practice Exams",
           url: "https://www.appracticeexams.com/ap-calculus-ab",
         },
         {
-          name: "Calcworkshop",
-          url: "https://www.calcworkshop.com/ap-calculus-ab/",
+          name: "Paul's Online Math Notes",
+          url: "http://tutorial.math.lamar.edu/Classes/CalcI/CalcI.aspx",
+        },
+        { name: "Symbolab", url: "https://www.symbolab.com/" },
+        { name: "Wolfram Alpha", url: "https://www.wolframalpha.com/" },
+        {
+          name: "Derivative Calculator",
+          url: "https://www.derivative-calculator.net/",
+        },
+        {
+          name: "Integral Calculator",
+          url: "https://www.integral-calculator.com/",
         },
       ],
     },
@@ -150,18 +154,22 @@ function AnotherPage() {
           url: "https://www.khanacademy.org/math/ap-calculus-bc",
         },
         {
-          name: "Paul's Online Math Notes",
-          url: "http://tutorial.math.lamar.edu/Classes/CalcII/CalcII.aspx",
-        },
-        { name: "PatrickJMT", url: "http://patrickjmt.com/" },
-        { name: "Wolfram Alpha", url: "https://www.wolframalpha.com/" },
-        {
           name: "AP Calculus Practice Exams",
           url: "https://www.appracticeexams.com/ap-calculus-bc",
         },
         {
-          name: "Calcworkshop",
-          url: "https://www.calcworkshop.com/ap-calculus-bc/",
+          name: "Paul's Online Math Notes",
+          url: "http://tutorial.math.lamar.edu/Classes/CalcI/CalcI.aspx",
+        },
+        { name: "Symbolab", url: "https://www.symbolab.com/" },
+        { name: "Wolfram Alpha", url: "https://www.wolframalpha.com/" },
+        {
+          name: "Derivative Calculator",
+          url: "https://www.derivative-calculator.net/",
+        },
+        {
+          name: "Integral Calculator",
+          url: "https://www.integral-calculator.com/",
         },
       ],
     },
