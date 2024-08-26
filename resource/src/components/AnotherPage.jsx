@@ -68,7 +68,6 @@ function AnotherPage() {
           name: "MoMA Learning",
           url: "https://www.moma.org/learn/moma_learning/",
         },
-        { name: "Artstor", url: "https://www.artstor.org/" },
       ],
     },
     {
@@ -98,8 +97,6 @@ function AnotherPage() {
           name: "OpenStax Biology",
           url: "https://openstax.org/details/books/biology-ap-courses",
         },
-        { name: "BioMan Biology", url: "https://www.biomanbio.com/" },
-        { name: "BioInteractive", url: "https://www.biointeractive.org/" },
         { name: "Albert.io", url: "https://www.albert.io/ap-biology" },
       ],
     },
@@ -222,10 +219,8 @@ function AnotherPage() {
           url: "https://www.duolingo.com/course/zh/en/Learn-Chinese",
         },
         { name: "ChinesePod", url: "https://www.chinesepod.com/" },
-        { name: "Yoyo Chinese", url: "https://www.yoyochinese.com/" },
         { name: "HelloChinese", url: "https://www.hellochinese.cc/" },
         { name: "FluentU", url: "https://www.fluentu.com/blog/chinese/" },
-        { name: "Pleco", url: "https://www.pleco.com/" },
       ],
     },
     {
@@ -244,10 +239,6 @@ function AnotherPage() {
           url: "https://www.khanacademy.org/humanities/ap-us-government-and-politics",
         },
         {
-          name: "Shmoop",
-          url: "https://www.shmoop.com/study-guides/ap/comparative-government-and-politics",
-        },
-        {
           name: "Crash Course Government and Politics",
           url: "https://thecrashcourse.com/courses/government",
         },
@@ -255,10 +246,6 @@ function AnotherPage() {
         {
           name: "CIA World Factbook",
           url: "https://www.cia.gov/the-world-factbook/",
-        },
-        {
-          name: "Annenberg Classroom",
-          url: "https://www.annenbergclassroom.org/",
         },
       ],
     },
@@ -278,10 +265,6 @@ function AnotherPage() {
           url: "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
         },
         {
-          name: "Khan Academy",
-          url: "https://www.khanacademy.org/computing/computer-science",
-        },
-        {
           name: "Codecademy",
           url: "https://www.codecademy.com/learn/learn-java",
         },
@@ -292,12 +275,8 @@ function AnotherPage() {
         { name: "EdX", url: "https://www.edx.org/learn/java" },
         { name: "CS50", url: "https://cs50.harvard.edu/" },
         {
-          name: "Udacity",
-          url: "https://www.udacity.com/course/intro-to-java-programming--cs046",
-        },
-        {
-          name: "Oracle Java Tutorials",
-          url: "https://docs.oracle.com/javase/tutorial/",
+          name: "Geeks for Geeks",
+          url: "https://www.geeksforgeeks.org/?download-android-apps-without-play-store%2F=",
         },
       ],
     },
@@ -312,27 +291,14 @@ function AnotherPage() {
           name: "College Board",
           url: "https://apstudents.collegeboard.org/courses/ap-computer-science-principles",
         },
-        {
-          name: "Khan Academy",
-          url: "https://www.khanacademy.org/computing/computer-science",
-        },
         { name: "Code.org", url: "https://studio.code.org/s/csp1-2020" },
         {
           name: "Codecademy",
           url: "https://www.codecademy.com/learn/computer-science",
         },
         {
-          name: "Coursera",
-          url: "https://www.coursera.org/specializations/computer-fundamentals",
-        },
-        {
           name: "EdX",
           url: "https://www.edx.org/course/cs50s-introduction-to-computer-science",
-        },
-        { name: "CS50", url: "https://cs50.harvard.edu/" },
-        {
-          name: "Udacity",
-          url: "https://www.udacity.com/course/intro-to-computer-science--cs101",
         },
         {
           name: "Exploring Computer Science",
@@ -351,22 +317,8 @@ function AnotherPage() {
           name: "College Board",
           url: "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
         },
-        {
-          name: "Khan Academy",
-          url: "https://www.khanacademy.org/humanities/ap-english-language",
-        },
-        { name: "Purdue OWL", url: "https://owl.purdue.edu/" },
         { name: "SparkNotes", url: "https://www.sparknotes.com/lit/" },
-        {
-          name: "Shmoop",
-          url: "https://www.shmoop.com/study-guides/ap/english-language",
-        },
-        {
-          name: "CliffsNotes",
-          url: "https://www.cliffsnotes.com/cliffsnotes/subjects/literature",
-        },
         { name: "Literary Devices", url: "https://literarydevices.net/" },
-        { name: "Hemingway Editor", url: "http://www.hemingwayapp.com/" },
       ],
     },
     {
@@ -380,20 +332,7 @@ function AnotherPage() {
           name: "College Board",
           url: "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
         },
-        {
-          name: "Khan Academy",
-          url: "https://www.khanacademy.org/humanities/ap-english-literature",
-        },
-        { name: "Purdue OWL", url: "https://owl.purdue.edu/" },
         { name: "SparkNotes", url: "https://www.sparknotes.com/lit/" },
-        {
-          name: "Shmoop",
-          url: "https://www.shmoop.com/study-guides/ap/english-literature",
-        },
-        {
-          name: "CliffsNotes",
-          url: "https://www.cliffsnotes.com/cliffsnotes/subjects/literature",
-        },
         { name: "Literary Devices", url: "https://literarydevices.net/" },
         { name: "Poetry Foundation", url: "https://www.poetryfoundation.org/" },
       ],
@@ -410,10 +349,6 @@ function AnotherPage() {
           url: "https://apstudents.collegeboard.org/courses/ap-environmental-science",
         },
         {
-          name: "Khan Academy",
-          url: "https://www.khanacademy.org/science/ap-environmental-science",
-        },
-        {
           name: "Bozeman Science",
           url: "http://www.bozemanscience.com/ap-environmental-science",
         },
@@ -422,17 +357,8 @@ function AnotherPage() {
           url: "https://thecrashcourse.com/courses/ecology",
         },
         {
-          name: "Environmental Science Textbook",
-          url: "https://openstax.org/details/books/environmental-science",
-        },
-        {
           name: "National Geographic",
           url: "https://www.nationalgeographic.com/environment/",
-        },
-        { name: "EPA", url: "https://www.epa.gov/" },
-        {
-          name: "Science Daily",
-          url: "https://www.sciencedaily.com/news/earth_climate/environmental_science/",
         },
       ],
     },
@@ -453,22 +379,9 @@ function AnotherPage() {
           url: "https://apstudents.collegeboard.org/courses/ap-european-history",
         },
         {
-          name: "Khan Academy",
-          url: "https://www.khanacademy.org/humanities/ap-european-history",
-        },
-        {
           name: "Crash Course European History",
           url: "https://thecrashcourse.com/courses/europeanhistory",
         },
-        {
-          name: "SparkNotes",
-          url: "https://www.sparknotes.com/history/european/",
-        },
-        {
-          name: "Shmoop",
-          url: "https://www.shmoop.com/study-guides/ap/european-history",
-        },
-        { name: "History Guide", url: "http://www.historyguide.org/" },
         {
           name: "EuroDocs",
           url: "http://eudocs.lib.byu.edu/index.php/Main_Page",
