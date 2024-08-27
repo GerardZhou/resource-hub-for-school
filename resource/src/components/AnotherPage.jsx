@@ -457,16 +457,8 @@ function AnotherPage() {
           url: "https://apstudents.collegeboard.org/courses/ap-human-geography",
         },
         {
-          name: "Khan Academy",
-          url: "https://www.khanacademy.org/humanities/ap-human-geography",
-        },
-        {
-          name: "Shmoop",
-          url: "https://www.shmoop.com/study-guides/ap/human-geography",
-        },
-        {
-          name: "Crash Course Geography",
-          url: "https://thecrashcourse.com/courses/geography",
+          name: "Mr. Sinn Youtube Channel",
+          url: "https://www.youtube.com/@MrSinn/featured",
         },
         {
           name: "National Geographic Education",
@@ -497,10 +489,6 @@ function AnotherPage() {
           url: "https://www.duolingo.com/course/it/en/Learn-Italian",
         },
         { name: "ItalianPod101", url: "https://www.italianpod101.com/" },
-        {
-          name: "One World Italiano",
-          url: "https://www.oneworlditaliano.com/",
-        },
         { name: "LearnAmo", url: "https://learnamo.com/" },
         { name: "Loecsen", url: "https://www.loecsen.com/en/learn-italian" },
       ],
@@ -526,13 +514,11 @@ function AnotherPage() {
           url: "https://www.duolingo.com/course/ja/en/Learn-Japanese",
         },
         { name: "JapanesePod101", url: "https://www.japanesepod101.com/" },
-        { name: "Tofugu", url: "https://www.tofugu.com/" },
         {
           name: "NHK World",
           url: "https://www3.nhk.or.jp/nhkworld/en/learnjapanese/",
         },
-        { name: "Marugoto", url: "https://www.marugoto.org/" },
-        { name: "JFZ", url: "https://japanesefromzero.com/" },
+        { name: "Japanese From Zero", url: "https://japanesefromzero.com/" },
       ],
     },
     {
@@ -551,17 +537,9 @@ function AnotherPage() {
           url: "http://www.perseus.tufts.edu/hopper/",
         },
         { name: "Textkit", url: "https://www.textkit.com/" },
-        {
-          name: "Loeb Classical Library",
-          url: "https://www.hup.harvard.edu/loeb/",
-        },
         { name: "Latin Library", url: "http://www.thelatinlibrary.com/" },
         { name: "Wheelock's Latin", url: "http://wheelockslatin.com/" },
         { name: "National Latin Exam", url: "https://www.nle.org/" },
-        {
-          name: "Latin Dictionary and Grammar Aid",
-          url: "http://archives.nd.edu/latgramm.htm",
-        },
       ],
     },
     {
@@ -589,13 +567,6 @@ function AnotherPage() {
           name: "Crash Course Economics",
           url: "https://thecrashcourse.com/courses/economics",
         },
-        { name: "EconLib", url: "https://www.econlib.org/" },
-        { name: "Investopedia", url: "https://www.investopedia.com/" },
-        {
-          name: "Federal Reserve Education",
-          url: "https://www.federalreserveeducation.org/",
-        },
-        { name: "Economics Help", url: "https://www.economicshelp.org/" },
       ],
     },
     {
@@ -704,13 +675,6 @@ function AnotherPage() {
           name: "Crash Course Economics",
           url: "https://thecrashcourse.com/courses/economics",
         },
-        { name: "EconLib", url: "https://www.econlib.org/" },
-        { name: "Investopedia", url: "https://www.investopedia.com/" },
-        {
-          name: "Federal Reserve Education",
-          url: "https://www.federalreserveeducation.org/",
-        },
-        { name: "Economics Help", url: "https://www.economicshelp.org/" },
       ],
     },
     {
@@ -726,12 +690,10 @@ function AnotherPage() {
         },
         { name: "MusicTheory.net", url: "https://www.musictheory.net/" },
         { name: "Teoria", url: "https://www.teoria.com/" },
-        { name: "Open Music Theory", url: "https://openmusictheory.com/" },
         {
           name: "Dolmetsch Online",
           url: "https://www.dolmetsch.com/theoryintro.htm",
         },
-        { name: "Justin Guitar", url: "https://www.justinguitar.com/" },
         { name: "The College Music Society", url: "https://www.music.org/" },
       ],
     },
@@ -754,20 +716,8 @@ function AnotherPage() {
           name: "Khan Academy",
           url: "https://www.khanacademy.org/science/ap-physics-1",
         },
-        {
-          name: "Bozeman Science",
-          url: "http://www.bozemanscience.com/ap-physics-1",
-        },
-        {
-          name: "HyperPhysics",
-          url: "http://hyperphysics.phy-astr.gsu.edu/hbase/hph.html",
-        },
         { name: "Flipping Physics", url: "https://www.flippingphysics.com/" },
         { name: "Physics Classroom", url: "https://www.physicsclassroom.com/" },
-        {
-          name: "OpenStax Physics",
-          url: "https://openstax.org/details/books/college-physics-ap-courses",
-        },
         {
           name: "AP Physics Practice Exams",
           url: "https://www.apphysicsresources.com/ap-physics-1-exams",
