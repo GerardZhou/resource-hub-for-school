@@ -740,23 +740,10 @@ function AnotherPage() {
           url: "https://www.khanacademy.org/science/ap-physics-2",
         },
         {
-          name: "Bozeman Science",
-          url: "http://www.bozemanscience.com/ap-physics-2",
-        },
-        {
           name: "HyperPhysics",
           url: "http://hyperphysics.phy-astr.gsu.edu/hbase/hph.html",
         },
-        { name: "Flipping Physics", url: "https://www.flippingphysics.com/" },
         { name: "Physics Classroom", url: "https://www.physicsclassroom.com/" },
-        {
-          name: "OpenStax Physics",
-          url: "https://openstax.org/details/books/college-physics-ap-courses",
-        },
-        {
-          name: "AP Physics Practice Exams",
-          url: "https://www.apphysicsresources.com/ap-physics-2-exams",
-        },
       ],
     },
     {
@@ -775,27 +762,11 @@ function AnotherPage() {
           url: "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
         },
         {
-          name: "Khan Academy",
-          url: "https://www.khanacademy.org/science/ap-physics-c-electricity-and-magnetism",
-        },
-        {
-          name: "Bozeman Science",
-          url: "http://www.bozemanscience.com/ap-physics-c-em",
-        },
-        {
           name: "HyperPhysics",
           url: "http://hyperphysics.phy-astr.gsu.edu/hbase/hph.html",
         },
         { name: "Flipping Physics", url: "https://www.flippingphysics.com/" },
         { name: "Physics Classroom", url: "https://www.physicsclassroom.com/" },
-        {
-          name: "OpenStax Physics",
-          url: "https://openstax.org/details/books/college-physics-ap-courses",
-        },
-        {
-          name: "AP Physics Practice Exams",
-          url: "https://www.apphysicsresources.com/ap-physics-c-em-exams",
-        },
       ],
     },
     {
@@ -810,27 +781,11 @@ function AnotherPage() {
           url: "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
         },
         {
-          name: "Khan Academy",
-          url: "https://www.khanacademy.org/science/ap-physics-c-mechanics",
-        },
-        {
-          name: "Bozeman Science",
-          url: "http://www.bozemanscience.com/ap-physics-c-mech",
-        },
-        {
           name: "HyperPhysics",
           url: "http://hyperphysics.phy-astr.gsu.edu/hbase/hph.html",
         },
         { name: "Flipping Physics", url: "https://www.flippingphysics.com/" },
         { name: "Physics Classroom", url: "https://www.physicsclassroom.com/" },
-        {
-          name: "OpenStax Physics",
-          url: "https://openstax.org/details/books/college-physics-ap-courses",
-        },
-        {
-          name: "AP Physics Practice Exams",
-          url: "https://www.apphysicsresources.com/ap-physics-c-mech-exams",
-        },
       ],
     },
     {
@@ -845,31 +800,13 @@ function AnotherPage() {
           url: "https://apstudents.collegeboard.org/courses/ap-psychology",
         },
         {
-          name: "Khan Academy",
-          url: "https://www.khanacademy.org/science/ap-psychology",
-        },
-        { name: "Simply Psychology", url: "https://www.simplypsychology.org/" },
-        {
-          name: "Psychology Study Guide",
-          url: "https://www.psychologystudyguide.org/",
-        },
-        {
           name: "Crash Course Psychology",
           url: "https://thecrashcourse.com/courses/psychology",
         },
-        { name: "Verywell Mind", url: "https://www.verywellmind.com/" },
         { name: "Psych Central", url: "https://psychcentral.com/" },
         {
           name: "APA Psychology",
           url: "https://www.apa.org/",
-        },
-        {
-          name: "Class Central",
-          url: "https://www.classcentral.com/course/ap-psychology-201",
-        },
-        {
-          name: "OpenStax Psychology",
-          url: "https://openstax.org/details/books/psychology",
         },
       ],
     },
