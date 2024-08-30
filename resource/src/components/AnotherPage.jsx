@@ -604,10 +604,6 @@ function AnotherPage() {
           name: "Project Gutenberg",
           url: "https://www.gutenberg.org/",
         },
-        {
-          name: "Questia",
-          url: "https://www.questia.com/",
-        },
       ],
     },
     {
@@ -636,18 +632,6 @@ function AnotherPage() {
         {
           name: "Project Gutenberg",
           url: "https://www.gutenberg.org/",
-        },
-        {
-          name: "Questia",
-          url: "https://www.questia.com/",
-        },
-        {
-          name: "Library of Congress",
-          url: "https://www.loc.gov/",
-        },
-        {
-          name: "TED Talks",
-          url: "https://www.ted.com/talks",
         },
       ],
     },
@@ -843,6 +827,10 @@ function AnotherPage() {
       class: "AP Spanish Literature and Culture",
       resources: [
         {
+          name: "AP Spanish Lit Youtube Playlist",
+          url: "https://www.youtube.com/playlist?list=PLoGgviqq4846hRB2oasV7sYAA4yW7VrbG",
+        },
+        {
           name: "College Board",
           url: "https://apstudents.collegeboard.org/courses/ap-spanish-literature-and-culture",
         },
@@ -876,20 +864,8 @@ function AnotherPage() {
           url: "https://www.khanacademy.org/math/ap-statistics",
         },
         { name: "Stats Medic", url: "https://www.statsmedic.com/" },
-        {
-          name: "The Practice of Statistics",
-          url: "http://bcs.whfreeman.com/tps4e/",
-        },
         { name: "OpenIntro Statistics", url: "https://www.openintro.org/" },
         { name: "Stat Trek", url: "https://stattrek.com/" },
-        {
-          name: "Seeing Theory",
-          url: "http://students.brown.edu/seeing-theory/",
-        },
-        {
-          name: "AP Statistics Practice Exams",
-          url: "https://www.apphysicsresources.com/ap-statistics-exams",
-        },
       ],
     },
     {
@@ -901,7 +877,7 @@ function AnotherPage() {
         },
         {
           name: "College Board",
-          url: "https://apstudents.collegeboard.org/courses/ap-studio-art-3d-design",
+          url: "https://apstudents.collegeboard.org/courses/ap-3-d-art-and-design",
         },
         { name: "Artcyclopedia", url: "http://www.artcyclopedia.com/" },
         { name: "The Art Story", url: "https://www.theartstory.org/" },
@@ -915,19 +891,18 @@ function AnotherPage() {
           url: "https://americanart.si.edu/",
         },
         { name: "National Gallery of Art", url: "https://www.nga.gov/" },
-        { name: "MoMA Learning", url: "https://www.moma.org/learn/" },
       ],
     },
     {
       class: "AP Studio Art: 2-D Design",
       resources: [
         {
-          name: "AP Studio Art: 3-D Design Youtube Playlist",
+          name: "AP Studio Art: 2-D Design Youtube Playlist",
           url: "https://www.youtube.com/playlist?list=PLoGgviqq4845m2Svz93jITSTAU5yt1QuW",
         },
         {
           name: "College Board",
-          url: "https://apstudents.collegeboard.org/courses/ap-studio-art-2d-design",
+          url: "https://apcentral.collegeboard.org/courses/ap-2-d-art-and-design",
         },
         { name: "Artcyclopedia", url: "http://www.artcyclopedia.com/" },
         { name: "The Art Story", url: "https://www.theartstory.org/" },
@@ -941,7 +916,6 @@ function AnotherPage() {
           url: "https://americanart.si.edu/",
         },
         { name: "National Gallery of Art", url: "https://www.nga.gov/" },
-        { name: "MoMA Learning", url: "https://www.moma.org/learn/" },
       ],
     },
     {
@@ -953,7 +927,7 @@ function AnotherPage() {
         },
         {
           name: "College Board",
-          url: "https://apstudents.collegeboard.org/courses/ap-studio-art-drawing",
+          url: "https://apstudents.collegeboard.org/courses/ap-drawing",
         },
         { name: "Artcyclopedia", url: "http://www.artcyclopedia.com/" },
         { name: "The Art Story", url: "https://www.theartstory.org/" },
@@ -967,7 +941,6 @@ function AnotherPage() {
           url: "https://americanart.si.edu/",
         },
         { name: "National Gallery of Art", url: "https://www.nga.gov/" },
-        { name: "MoMA Learning", url: "https://www.moma.org/learn/" },
       ],
     },
 
@@ -990,18 +963,8 @@ function AnotherPage() {
           name: "Khan Academy",
           url: "https://www.khanacademy.org/social-science/ap-us-government-and-politics",
         },
-        {
-          name: "Crash Course Government",
-          url: "https://thecrashcourse.com/courses/government-and-politics",
-        },
         { name: "C-SPAN Classroom", url: "https://www.c-span.org/classroom/" },
         { name: "Oyez", url: "https://www.oyez.org/" },
-        { name: "PBS LearningMedia", url: "https://www.pbslearningmedia.org/" },
-        { name: "Coursera", url: "https://www.coursera.org/" },
-        {
-          name: "AP Government Practice Exams",
-          url: "https://www.apphysicsresources.com/ap-us-government-exams",
-        },
       ],
     },
     {
@@ -1028,20 +991,11 @@ function AnotherPage() {
           url: "https://www.khanacademy.org/humanities/ap-us-history",
         },
         {
-          name: "Crash Course US History",
-          url: "https://thecrashcourse.com/courses/us-history",
-        },
-        {
           name: "Gilder Lehrman Institute of American History",
           url: "https://www.gilderlehrman.org/",
         },
-        { name: "History.com", url: "https://www.history.com/" },
+        { name: "History Channel", url: "https://www.history.com/" },
         { name: "Digital History", url: "http://www.digitalhistory.uh.edu/" },
-        { name: "American Yawp", url: "https://www.americanyawp.com/" },
-        {
-          name: "AP US History Practice Exams",
-          url: "https://www.apphysicsresources.com/ap-us-history-exams",
-        },
       ],
     },
     {
@@ -1063,20 +1017,7 @@ function AnotherPage() {
           name: "Khan Academy",
           url: "https://www.khanacademy.org/humanities/ap-world-history",
         },
-        {
-          name: "Crash Course World History",
-          url: "https://thecrashcourse.com/courses/world-history",
-        },
-        {
-          name: "World History for Us All",
-          url: "http://worldhistoryforusall.sdsu.edu/",
-        },
-        { name: "BBC History", url: "http://www.bbc.co.uk/history/world/" },
         { name: "History Channel", url: "https://www.history.com/" },
-        {
-          name: "AP World History Practice Exams",
-          url: "https://www.apphysicsresources.com/ap-world-history-modern-exams",
-        },
       ],
     },
   ];
