@@ -1,3 +1,7 @@
+.container:hover {
+  outline: 0.15em solid #87ff8ba6; /* Adds a visible outline when hovering */
+}
+
 .image {
   display: block;
   width: 10em;
