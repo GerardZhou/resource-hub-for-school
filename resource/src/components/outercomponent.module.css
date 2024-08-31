@@ -1,3 +1,7 @@
+a {
+  outline: none;
+  text-decoration: none;
+}
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -7,7 +11,7 @@
   max-width: 90%; /* Ensures container takes up full width */
 }
 
-.container > div {
+.container > a {
   flex: 1 1 calc(33.33% - 1em); /* Each element takes up 1/3 of the container's width minus the gap */
   max-width: calc(23%); /* Ensure components don't exceed their base size */
   box-sizing: border-box;

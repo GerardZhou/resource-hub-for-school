@@ -1,12 +1,13 @@
 import styles from "./resourcecard.module.css";
 import Button from "./Button";
-export default function ResourceCard({ name, Image }) {
+
+export default function ResourceCard({ name, Image, link }) {
   return (
-    <div className={styles.container}>
-      <img className={styles.image} src={Image} />
+    <a href={link} className={styles.container}>
+      <img className={styles.image} src={Image} alt={name} />
       <div>
         <Button name={name} />
       </div>
-    </div>
+    </a>
   );
 }
