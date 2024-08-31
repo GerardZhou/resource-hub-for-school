@@ -9,11 +9,6 @@ export default function Button({ name }) {
   }
 
   return (
-    // <div>
-    //   <button onClick={handleClick} className={styles.newButton}>
-    //     <span>{name}</span>
-    //   </button>
-    // </div>
     <div>
       <button onClick={handleClick} className={styles.button}>
         <span>{name}</span>
