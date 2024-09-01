@@ -8,7 +8,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-top: 0.1 em solid rgb(239, 195, 245);
+  border-top: 0.15em solid rgb(239, 195, 245);
 }
 
 .title {
@@ -30,15 +30,16 @@
 }
 @media (max-width: 600px) {
   .header {
-    background-color: rgb(216, 182, 182);
+    background-color: rgb(15, 16, 32);
     font-weight: bold;
     font-family: "Inter", sans-serif;
+    font-size: 1.25em; /* 30px / 16 */
     color: #000000;
+    padding: 1em; /* 50px / 16 */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1em; /* Reduce padding on mobile */
-    font-size: 1.5em; /* Reduce font size on mobile */
+    border-top: 0.1em solid rgb(239, 195, 245);
   }
 
   .icon {
