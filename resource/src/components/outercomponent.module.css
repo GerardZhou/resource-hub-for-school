@@ -21,7 +21,7 @@ a {
 }
 
 /* Add background to specific sides using pseudo-elements */
-.container > div::before {
+.container > a::before {
   content: "";
   position: absolute;
   top: 0;
@@ -49,7 +49,7 @@ a {
     gap: 0.5em; /* Adjust gap for smaller screens */
   }
 
-  .container > div {
+  .container > a {
     flex: 1 1 100%; /* Stacks elements vertically on small screens */
     max-width: 100%; /* Ensures the card takes full width */
   }
