@@ -5,22 +5,40 @@
   padding: 0.625em 1.25em; /* 10px 20px / 16 */
   background-color: var(
     --gm3-button-filled-container-color,
-    var(--gm3-sys-color-primary, #3e80e9)
+    var(--gm3-sys-color-primary, #92bcff)
   );
-  color: white;
+  color: black;
   cursor: pointer;
   font-weight: bold;
   font-size: 0.9375em; /* 15px / 16 */
   margin: 0 auto;
   margin-top: 3.125em; /* 50px / 16 */
+  position: relative;
+  z-index: 0;
   /* margin-bottom: 1.25em; /* 20px / 16 */
   transition: background-color 0.2s ease, box-shadow 0.2s ease;
 }
+.button::after {
+  content: "";
+  background: linear-gradient(to right, black, rgb(147, 44, 6));
+  height: 100%;
+  width: 0px;
+  border-radius: 0.5em;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  transition: 150ms ease-in-out;
+}
 .button:hover {
-  background-color: var(
+  color: white;
+}
+.button:hover::after {
+  /* background-color: var(
     --gm3-button-filled-container-hover-color,
     var(--gm3-sys-color-primary-dark, rgb(92, 170, 252))
-  );
+  ); */
+  width: 100%;
   box-shadow: 0 0.25em 0.75em rgba(0, 0, 0, 0.6); /* 4px 12px / 16 */
 }
 
