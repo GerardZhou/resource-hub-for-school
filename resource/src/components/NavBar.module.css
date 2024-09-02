@@ -1,10 +1,10 @@
 /* src/NavBar.module.css */
 .nav {
-  /* background-color: #333; */
-  /* background-color: rgb(92, 35, 215); */
   background-color: rgb(239, 195, 245);
   padding: 1em;
   font-size: clamp(0.75em, 1.25em, 2em);
+  display: flex;
+  /* justify-content: center;  */
 }
 
 .list {
@@ -21,8 +21,15 @@
 .link {
   color: rgb(15, 16, 32);
   text-decoration: none;
+  padding: 0.25em;
+  background: linear-gradient(to right, black 0%, black 50%, transparent 50%);
+  background-size: 200% 100%;
+  background-position: 100% 0;
+  transition: background-position 0.3s ease, color 0.3s ease;
 }
 
 .link:hover {
-  text-decoration: underline;
+  background-position: 0 0; /* Move the background to create the left-to-right effect */
+  color: white; /* Change the text color to white on hover */
+  padding: 0.75em;
 }
