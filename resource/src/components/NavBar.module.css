@@ -33,3 +33,9 @@
   color: white; /* Change the text color to white on hover */
   padding: 0.75em;
 }
+
+@media (max-width: 600px) {
+  .nav {
+    font-size: 1.1em;
+  }
+}
