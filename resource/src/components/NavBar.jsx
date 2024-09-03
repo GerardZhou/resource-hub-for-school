@@ -19,7 +19,7 @@ const NavBar = () => {
         </li>
         <li className={styles.listItem}>
           <Link to="/mission-statement" className={styles.link}>
-            Mission Statement
+            About Us
           </Link>
         </li>
       </ul>
