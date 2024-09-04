@@ -1239,6 +1239,7 @@ function AnotherPage() {
                       href={resource.url}
                       target="_blank"
                       rel="noopener noreferrer"
+                      className={styles.url}
                     >
                       {resource.name}
                     </a>

@@ -1,10 +1,11 @@
 /* src/NavBar.module.css */
 .nav {
   background-color: rgb(239, 195, 245);
-  padding: 1em;
+  padding: 0.25em;
   font-size: clamp(0.75em, 1.25em, 2em);
   display: flex;
   /* justify-content: center;  */
+  box-shadow: 0 1em 1em #00000033; /* 0 4px 8px */
 }
 
 .list {
