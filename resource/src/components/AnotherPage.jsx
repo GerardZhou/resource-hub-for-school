@@ -1221,29 +1221,18 @@ function AnotherPage() {
         <div>
           {apClass.class === resourceId ? (
             <div>
-              {/* <div className={styles.imageContainer}>
-                {apList.map((elem, index) => (
-                  <div key={index}>
-                    {apClass.class === elem.name ? (
-                      <img className={styles.image} src={elem.image} />
-                    ) : null}
-                  </div>
-                ))}
-              </div> */}
               <div className={styles.space}> </div>{" "}
               <div className={styles.className}>{apClass.class}</div>{" "}
               <div>
                 {apClass.resources.map((resource, idx) => (
-                  <div className={styles.comp}>
-                    <a
-                      href={resource.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className={styles.url}
-                    >
-                      {resource.name}
-                    </a>
-                  </div>
+                  <a
+                    href={resource.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={styles.comp}
+                  >
+                    {resource.name}
+                  </a>
                 ))}
               </div>{" "}
             </div>
