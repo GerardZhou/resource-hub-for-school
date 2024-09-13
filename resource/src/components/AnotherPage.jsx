@@ -54,6 +54,10 @@ function AnotherPage() {
           name: "Khan Academy",
           url: "https://www.khanacademy.org/humanities/ap-art-history",
         },
+        {
+          name: "Teacher Oz",
+          url: "https://www.teacheroz.com/",
+        },
         { name: "Smarthistory", url: "https://smarthistory.org/" },
         {
           name: "Heilbrunn Timeline of Art History",
@@ -86,6 +90,10 @@ function AnotherPage() {
           url: "https://www.khanacademy.org/science/ap-biology",
         },
         {
+          name: "Amoeba Sisters",
+          url: "https://www.youtube.com/user/AmoebaSisters",
+        },
+        {
           name: "Bozeman Science",
           url: "http://www.bozemanscience.com/ap-biology",
         },
@@ -94,8 +102,8 @@ function AnotherPage() {
           url: "https://thecrashcourse.com/courses/biology",
         },
         {
-          name: "OpenStax Biology",
-          url: "https://openstax.org/details/books/biology-ap-courses",
+          name: "Winnie Sloan",
+          url: "https://www.youtube.com/user/WinnieLitten/playlists",
         },
         { name: "Albert.io", url: "https://www.albert.io/ap-biology" },
       ],
@@ -122,6 +130,10 @@ function AnotherPage() {
         {
           name: "Paul's Online Math Notes",
           url: "http://tutorial.math.lamar.edu/Classes/CalcI/CalcI.aspx",
+        },
+        {
+          name: "Michel van Biezen (Good Example Problems)",
+          url: "https://www.youtube.com/user/ilectureonline/playlists",
         },
         { name: "Symbolab", url: "https://www.symbolab.com/" },
         { name: "Wolfram Alpha", url: "https://www.wolframalpha.com/" },
@@ -157,6 +169,10 @@ function AnotherPage() {
         {
           name: "Paul's Online Math Notes",
           url: "http://tutorial.math.lamar.edu/Classes/CalcI/CalcI.aspx",
+        },
+        {
+          name: "Michel van Biezen (Good Example Problems)",
+          url: "https://www.youtube.com/user/ilectureonline/playlists",
         },
         { name: "Symbolab", url: "https://www.symbolab.com/" },
         { name: "Wolfram Alpha", url: "https://www.wolframalpha.com/" },
@@ -293,8 +309,16 @@ function AnotherPage() {
         },
         { name: "Code.org", url: "https://studio.code.org/s/csp1-2020" },
         {
+          name: "Khan Academy",
+          url: "https://www.khanacademy.org/computing/ap-computer-science-principles",
+        },
+        {
           name: "Codecademy",
           url: "https://www.codecademy.com/learn/computer-science",
+        },
+        {
+          name: "Crash Course",
+          url: "https://thecrashcourse.com/topic/computerscience/",
         },
         {
           name: "EdX",
