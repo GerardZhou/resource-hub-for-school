@@ -17,7 +17,7 @@ export default function Footer() {
             className={styles.icon}
           />
         </a>
-        <a
+        {/* <a
           href="https://www.youtube.com/channel/UCuYyTP-qHLiiK-TpcyVqAIA?sub_confirmation=1"
           target="_blank"
           rel="noopener noreferrer"
@@ -27,8 +27,8 @@ export default function Footer() {
             alt="Youtube"
             className={styles.icon}
           />
-        </a>
-        <a
+        </a> */}
+        {/* <a
           href="https://www.tiktok.com/@ap_resources_hub"
           target="_blank"
           rel="noopener noreferrer"
@@ -38,8 +38,8 @@ export default function Footer() {
             alt="TikTok"
             className={styles.icon}
           />
-        </a>
-        <a
+        </a> */}
+        {/* <a
           href="https://www.linkedin.com/in/resource-hub-for-school-b89255321/"
           target="_blank"
           rel="noopener noreferrer"
@@ -49,7 +49,7 @@ export default function Footer() {
             alt="Linkedin"
             className={styles.icon}
           />
-        </a>
+        </a> */}
       </div>
     </div>
   );
