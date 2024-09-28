@@ -1,11 +1,10 @@
 .button {
   display: flex;
   outline: none;
-  border-radius: 0.5em; /* 20px / 16 */
   padding: 0.625em 1.25em; /* 10px 20px / 16 */
   background-color: var(
     --gm3-button-filled-container-color,
-    var(--gm3-sys-color-primary, #92bcff)
+    var(--gm3-sys-color-primary, #92bcffd9)
   );
   /* background: linear-gradient(to right, cyan, blue); */
   color: black;

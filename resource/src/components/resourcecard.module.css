@@ -1,56 +1,33 @@
-.container:hover {
-  outline: 0.15em solid #87ff8ba6; /* Adds a visible outline when hovering */
-}
-
-.image {
-  display: block;
-  width: 10em;
-  height: clamp(5em, 10em, 11em); /* Adjusted height for mobile */
-  border-radius: 50%;
-  margin-bottom: 0.5em; /* Reduced margin for mobile */
-  object-fit: cover;
-  background-color: white;
-}
-
 .container {
-  background-image: linear-gradient(to right, #eaf1ef, #ddeee8);
-  max-width: 50%; /* Adjusted width for mobile */
+  background-color: white;
+  background-size: cover; /* Make the image cover the entire container */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Ensure no image repetition */
+  max-width: 50%; /* Adjust width for mobile */
   margin: 0.875em auto; /* Reduced margin for mobile */
-  padding: clamp(0.75em, 2.5vw, 1em); /* Adjusted padding for mobile */
+  padding: 0; /* Remove padding so the button aligns with the card edges */
   box-shadow: 0 0.2em 0.4em #00000033; /* Slightly reduced shadow for mobile */
   border-radius: 0.5em; /* Slightly reduced border radius for mobile */
   font-family: "Inter", sans-serif;
-  display: flex; /* Added flexbox */
-  flex-direction: column; /* Align children vertically */
-  align-items: center; /* Center children horizontally */
+  position: relative; /* Set relative position for absolute button positioning */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* Make sure content stays at the bottom */
+  height: 15em; /* Set height for the card */
 }
-
 .container:hover {
+  outline: 0.15em solid #87ff8ba6;
   box-shadow: 0.6em 0.6em 0.6em rgba(0, 0, 0, 0.3),
-    -0.6em -0.6em 0.6em rgb(0, 0, 0, 0.3); /* Adjusted hover effect for mobile */
+    -0.6em -0.6em 0.6em rgb(0, 0, 0, 0.3); /* Adjusted hover effect */
 }
 
-/* Further adjustments using media queries */
 @media (max-width: 600px) {
-  .image {
-    height: clamp(
-      7em,
-      8.5em,
-      9em
-    ); /* Further reduced height for smaller screens */
-    margin-bottom: 0.5em;
-  }
-
   .container {
     max-width: clamp(
       6em,
       6.5em,
       7.5em
-    ); /* Adjusted container width for small screens */
-    padding: clamp(
-      0.625em,
-      2vw,
-      0.875em
-    ); /* More compact padding for small screens */
+    ); /* Adjust container width for small screens */
+    height: 10em; /* Adjust height for mobile */
   }
 }
