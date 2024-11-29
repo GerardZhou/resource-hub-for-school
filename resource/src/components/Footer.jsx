@@ -6,7 +6,7 @@ export default function Footer() {
     <div className={styles.header}>
       <div className={styles.title}>Resource Hub For School</div>
       <div className={styles.social}>
-        <a
+        {/* <a
           href="https://www.instagram.com/resourcehubforschool/"
           target="_blank"
           rel="noopener noreferrer"
@@ -16,7 +16,7 @@ export default function Footer() {
             alt="Instagram"
             className={styles.icon}
           />
-        </a>
+        </a> */}
         {/* <a
           href="https://www.youtube.com/channel/UCuYyTP-qHLiiK-TpcyVqAIA?sub_confirmation=1"
           target="_blank"
