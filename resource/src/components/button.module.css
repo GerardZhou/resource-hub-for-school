@@ -19,7 +19,7 @@
 }
 .button::after {
   content: "";
-  background: linear-gradient(to right, black, rgb(147, 44, 6));
+  background: rgba(18, 50, 178, 0.607);
   height: 100%;
   width: 0px;
   border-radius: 0.5em;
@@ -31,6 +31,8 @@
 }
 button:hover {
   color: white;
+  box-shadow: 3px 3px black, 6px 6px 0 0 white;
+  transform: translate(-2px, -2px);
 }
 .button:hover::after {
   /* background-color: var(
