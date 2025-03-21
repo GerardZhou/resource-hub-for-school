@@ -3,7 +3,6 @@
   font-weight: bold;
   font-family: "Inter", sans-serif;
   font-size: 1.875em; /* 30px / 16 */
-  color: #000000;
   padding: 1.5em; /* 50px / 16 */
   display: flex;
   justify-content: space-between;
@@ -18,8 +17,13 @@
   color: transparent;
 }
 
-.social {
+.links {
   text-align: right;
+  background: linear-gradient(to left, rgb(239, 195, 245), rgba(115, 83, 186));
+  background-clip: text;
+  color: transparent;
+  display: flex;
+  gap: 1em;
 }
 
 .icon {
@@ -49,7 +53,8 @@
   }
 
   .title,
-  .social {
+  .social,
+  .links {
     text-align: center; /* Center-align text on small screens */
     width: 100%; /* Make title and social elements full-width */
   }
