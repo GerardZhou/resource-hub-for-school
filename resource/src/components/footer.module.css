@@ -20,7 +20,9 @@
 .links {
   text-align: right;
   background: linear-gradient(to left, rgb(239, 195, 245), rgba(115, 83, 186));
+  -webkit-background-clip: text;
   background-clip: text;
+  -webkit-text-fill-color: transparent;
   color: transparent;
   display: flex;
   gap: 1em;
