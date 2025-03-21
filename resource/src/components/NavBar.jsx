@@ -14,12 +14,12 @@ const NavBar = () => {
         </li>
         <li className={styles.listItem}>
           <Link to="/contact" className={styles.link}>
-            Contact/Feedback
+            Contact
           </Link>
         </li>
         <li className={styles.listItem}>
-          <Link to="/mission-statement" className={styles.link}>
-            About Us
+          <Link to="/about" className={styles.link}>
+            About
           </Link>
         </li>
       </ul>

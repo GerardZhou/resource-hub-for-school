@@ -227,7 +227,7 @@ function App() {
             element={<AnotherPage apList={apClasses} />}
           />
           <Route path="/contact" element={<ContactForm />} />
-          <Route path="/mission-statement" element={<MissionStatement />} />
+          <Route path="/about" element={<MissionStatement />} />
         </Routes>
       </Router>
       <Footer />
