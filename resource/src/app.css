@@ -1,12 +1,89 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
-body {
-  margin: 0;
+/* Shared visual tokens. All new components use this scale. */
+:root {
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 100%;
+  line-height: 1.5;
+  color: var(--color-text);
+  background: var(--color-page);
+  color-scheme: light;
+  --color-page: #f5f7fb;
+  --color-surface: #ffffff;
+  --color-text: #17233a;
+  --color-muted: #526079;
+  --color-border: #dce2ed;
+  --color-control-border: #77849b;
+  --color-accent: #4338ca;
+  --color-accent-hover: #3730a3;
+  --color-accent-soft: #eef2ff;
+  --color-focus: #0369a1;
+  --color-success: #166534;
+  --color-success-soft: #f0fdf4;
+  --color-error: #b42318;
+  --color-error-soft: #fef3f2;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.5rem;
+  --text-2xl: 2rem;
+  --text-3xl: 2.5rem;
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --radius-sm: 0.5rem;
+  --radius-md: 0.75rem;
+}
 
-  background-size: cover;
-  background-repeat: no-repeat;
+*, *::before, *::after { box-sizing: border-box; }
+body { margin: 0; }
+button, input, select, textarea { font: inherit; }
+a { color: var(--color-accent); text-underline-offset: 0.2em; }
 
-  background-image: url("https://images.pexels.com/photos/1054218/pexels-photo-1054218.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+/* Also overrides the old components' outline: none during the staged redesign. */
+:root :focus-visible {
+  outline: 3px solid var(--color-focus);
+  outline-offset: 3px;
+}
 
-  background-position: center top;
-  background-attachment: fixed;
+.appShell {
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+
+.appMain {
+  flex: 1;
+  width: min(100%, 72rem);
+  margin-inline: auto;
+  padding: var(--space-8) var(--space-4) var(--space-12);
+  overflow-wrap: anywhere;
+}
+
+.skipLink {
+  position: fixed;
+  top: var(--space-3);
+  left: var(--space-3);
+  z-index: 10;
+  padding: var(--space-3) var(--space-4);
+  background: var(--color-surface);
+  border-radius: var(--radius-sm);
+  transform: translateY(-200%);
+}
+.skipLink:focus { transform: translateY(0); }
+
+@media (min-width: 48rem) {
+  .appMain { padding: var(--space-12) var(--space-8) var(--space-16); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
 }

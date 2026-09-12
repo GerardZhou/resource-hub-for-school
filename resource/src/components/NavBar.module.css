@@ -1,46 +1,60 @@
-/* src/NavBar.module.css */
-.nav {
-  background-color: rgb(239, 195, 245);
-  padding: 0.25em;
-  font-size: clamp(0.75em, 1.25em, 2em);
+.header {
+  background: var(--color-surface);
+  border-bottom: 1px solid var(--color-border);
+}
+.inner {
+  width: min(100%, 72rem);
+  margin-inline: auto;
+  padding: var(--space-3) var(--space-4);
   display: flex;
-  /* justify-content: center;  */
-  box-shadow: 0 1em 1em #00000033; /* 0 4px 8px */
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-2) var(--space-6);
 }
-
-.list {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  gap: 1em;
-}
-
-.listItem {
-  display: inline;
-}
-
-.link {
-  color: rgb(15, 16, 32);
+.brand {
+  min-height: 2.75rem;
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-3);
+  color: var(--color-text);
+  font-weight: 700;
   text-decoration: none;
-  padding: 0.25em;
-  background: linear-gradient(to right, black 0%, black 50%, transparent 50%);
-  background-size: 200% 100%;
-  background-position: 100% 0;
-  transition: background-position 0.3s ease, color 0.3s ease;
+  overflow-wrap: anywhere;
 }
-
-.link:hover {
-  background-position: 0 0; /* Move the background to create the left-to-right effect */
-  color: white; /* Change the text color to white on hover */
-  padding: 0.75em;
+.mark {
+  flex-shrink: 0;
+  display: grid;
+  place-items: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: var(--radius-sm);
+  color: var(--color-surface);
+  background: var(--color-accent);
+  font-size: var(--text-sm);
 }
-
-@media (max-width: 600px) {
-  .nav {
-    font-size: 1em;
-  }
-  .link {
-    padding: 0.5em;
-    width: 100%;
-  }
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-1);
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
+.link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.75rem;
+  padding: var(--space-2) var(--space-3);
+  border-radius: var(--radius-sm);
+  color: var(--color-muted);
+  font-size: var(--text-sm);
+  font-weight: 500;
+  text-decoration: none;
+}
+.link:hover, .link[aria-current="page"], .link[data-active="true"] {
+  color: var(--color-accent);
+  background: var(--color-accent-soft);
+}
+.link[aria-current="page"], .link[data-active="true"] { font-weight: 700; }
+@media (min-width: 48rem) { .inner { padding-inline: var(--space-8); } }

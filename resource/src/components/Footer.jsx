@@ -1,18 +1,16 @@
+import { Link } from "react-router-dom";
 import styles from "./footer.module.css";
-import { useState } from "react";
 
 export default function Footer() {
   return (
-    <div className={styles.header}>
-      <div className={styles.title}>Resource Hub For School</div>
-      <div className={styles.links}>
-        <a href="/about" className={styles.link}>
-          About
-        </a>
-        <a href="/contact" className={styles.link}>
-          Contact
-        </a>
+    <footer className={styles.footer}>
+      <div className={styles.inner}>
+        <span>AP Resource Hub</span>
+        <nav aria-label="Footer navigation" className={styles.links}>
+          <Link to="/about">About</Link>
+          <Link to="/contact">Share a resource</Link>
+        </nav>
       </div>
-    </div>
+    </footer>
   );
 }
